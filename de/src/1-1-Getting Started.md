@@ -26,4 +26,8 @@ Dieser Lernpfad basiert stark auf den Veröffentlichungen von Fraunhofer IESE. A
 
 Nach den ganzen Hinweisen und organisatorischen Punkten, lernt euch innerhalb eurer Gruppe kennen und tauscht euch aus:
 
-# 
+- Was hat euch auf diese Lernreise gebracht? Was hat euch geleitet - persönliche Begegnungen, Erfahrungen oder gar eigene Betroffenheit? Vielleicht gibt es auch keinen spezifischen Auslöser, sondern einfach nur Neugierde auf das Thema? 
+
+- Was interessiert euch/ begeistert euch am Thema Digitale Ökosysteme? 
+
+- Wie habt ihr davon gehört und wie seid ihr auf das Thema und auf den Lernpfad aufmerksam geworden?
