@@ -38,7 +38,7 @@ Im Grundlagenteil 2 bekommt ihr eine Übersicht über die Definition von Digital
 
 - Versucht anhand eines digitalen Ökosystems den Ökosystem-Service zu beschreiben und die Kennzeichen herauszuarbeiten. Dadurch soll euer Verständnis vertieft werden.
 
-**Weiterführende Links**
+**Weiterführende Links:**
 
 Möchtest du noch mehr über digitale Ökosystem wissen? Dann schaut euch folgende Links zu Artikeln und YouTube Videos an:
 
