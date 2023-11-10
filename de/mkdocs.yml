@@ -22,10 +22,10 @@ nav:
       - Continental: 2-12-Continental.md
     - Anhang: 3-0-Anhang.md
     - Download:
-      - PDF-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-template-guide.pdf
-      - Word-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-template-guide.docx
-      - HTML-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-template-guide.html
-      - E-Book (epub): https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-template-guide.epub
+      - PDF-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-digitales-oekosystem-guide.pdf
+      - Word-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-digitales-oekosystem-guide.docx
+      - HTML-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-digitales-oekosystem-guide.html
+      - E-Book (epub): https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-digitales-oekosystem-guide.epub
     - Links:
       - lernos.org: https://lernos.org
       - CONNECT Community: https://community.cogneon.de
@@ -44,7 +44,7 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-repo_name: 'cogneon/lernos-template'
+repo_name: 'cogneon/lernos-digitales-oekosystem'
 repo_url: 'https://github.com/cogneon/lernos-digitales-oekosystem'
 
 extra:
