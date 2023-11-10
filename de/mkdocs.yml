@@ -1,26 +1,31 @@
-site_name: lernOS Template Leitfaden
+site_name: lernOS Digitales Ökosystem Leitfaden
 site_url: https://cogneon.github.io/
 docs_dir: src
 site_dir: ../docs/de
 
 nav:
     - Willkommen: index.md
-    - Grundlagen:
-      - Überblick: 1-1-Grundidee.md
-      - Lebenszyklus: 1-2-Lebenszyklus.md
-      - Inhaltsverzeichnis: 1-3-Inhaltsverzeichnis.md
-      - Inhalt und Schreibstil: 1-4-Inhalt-Schreibstil.md
-      - Markdown Syntax: 1-5-Markdown-Syntax.md
-      - Produktionskette: 1-6-Produktionskette.md
-      - GitHub: 1-7-Github.md
-    - Lernpfad: 2-0-Lernpfad.md
+    - Grundlagen: 1-0-Basics.md
+    - Lernpfad:
+      - Überblick: 2-0-Lernpfad.md
+      - Digitalisierung: 2-1-Digitization.md
+      - Digitale Ökosysteme: 2-2-Digital-Ecosystems.md
+      - Gelegenheiten: 2-3-Opportunities.md
+      - Rollen: 2-4-Roles.md
+      - Geschäftsmodell: 2-5-Business-Model.md
+      - Typen: 2-6-Types.md
+      - Phasen: 2-7-Phases.md
+      - Mindset: 2-8-Mindset.md
+      - Monetarisierung: 2-9-Monetization.md
+      - DATEV: 2-10-DATEV.md
+      - SAP: 2-11-SAP.md
+      - Continental: 2-12-Continental.md
     - Anhang: 3-0-Anhang.md
     - Download:
-      - PDF-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.pdf
-      - Word-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.docx
-      - HTML-Version: https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.html
-      - E-Book (epub): https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.epub
-      - E-Book (mobi): https://github.com/cogneon/lernos-template/blob/master/de/build/lernos-template-guide.mobi
+      - PDF-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-template-guide.pdf
+      - Word-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-template-guide.docx
+      - HTML-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-template-guide.html
+      - E-Book (epub): https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-template-guide.epub
     - Links:
       - lernos.org: https://lernos.org
       - CONNECT Community: https://community.cogneon.de
@@ -40,12 +45,12 @@ extra_css:
   - stylesheets/extra.css
 
 repo_name: 'cogneon/lernos-template'
-repo_url: 'https://github.com/cogneon/lernos-template'
+repo_url: 'https://github.com/cogneon/lernos-digitales-oekosystem'
 
 extra:
     social:
-        - icon: fontawesome/brands/twitter
-          link: 'https://twitter.com/lern_os'
+        - icon: fontawesome/brands/mastodon
+          link: 'https://colearn.social/@lernos'
         - icon: fontawesome/brands/linkedin
           link: 'https://www.linkedin.com/showcase/lern-os'
         - icon: fontawesome/brands/github
@@ -54,14 +59,5 @@ extra:
     analytics:
        provider: custom
 
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
 plugins:
-  - rss:
-      abstract_chars_count: -1  # -1 for full content
   - search
