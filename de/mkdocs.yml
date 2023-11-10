@@ -8,15 +8,15 @@ nav:
     - Grundlagen: 1-0-Basics.md
     - Lernpfad:
       - Überblick: 2-0-Lernpfad.md
-      - Digitalisierung: 2-1-Digitization.md
-      - Digitale Ökosysteme: 2-2-Digital-Ecosystems.md
-      - Gelegenheiten: 2-3-Opportunities.md
-      - Rollen: 2-4-Roles.md
-      - Geschäftsmodell: 2-5-Business-Model.md
-      - Typen: 2-6-Types.md
-      - Phasen: 2-7-Phases.md
-      - Mindset: 2-8-Mindset.md
-      - Monetarisierung: 2-9-Monetization.md
+      - Digitalisierung: 2-01-Digitization.md
+      - Digitale Ökosysteme: 2-02-Digital-Ecosystems.md
+      - Gelegenheiten: 2-03-Opportunities.md
+      - Rollen: 2-04-Roles.md
+      - Geschäftsmodell: 2-05-Business-Model.md
+      - Typen: 2-06-Types.md
+      - Phasen: 2-07-Phases.md
+      - Mindset: 2-08-Mindset.md
+      - Monetarisierung: 2-09-Monetization.md
       - DATEV: 2-10-DATEV.md
       - SAP: 2-11-SAP.md
       - Continental: 2-12-Continental.md
