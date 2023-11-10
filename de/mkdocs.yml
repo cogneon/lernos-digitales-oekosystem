@@ -7,7 +7,7 @@ nav:
     - Willkommen: index.md
     - Grundlagen: 1-0-Basics.md
     - Lernpfad:
-      - Überblick: 2-0-Lernpfad.md
+      - Überblick: 2-0-Learning-Pathway.md
       - Digitalisierung: 2-01-Digitization.md
       - Digitale Ökosysteme: 2-02-Digital-Ecosystems.md
       - Gelegenheiten: 2-03-Opportunities.md
@@ -20,7 +20,6 @@ nav:
       - DATEV: 2-10-DATEV.md
       - SAP: 2-11-SAP.md
       - Continental: 2-12-Continental.md
-    - Anhang: 3-0-Anhang.md
     - Download:
       - PDF-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-digitales-oekosystem-guide.pdf
       - Word-Version: https://github.com/cogneon/lernos-digitales-oekosystem/blob/master/de/build/lernos-digitales-oekosystem-guide.docx

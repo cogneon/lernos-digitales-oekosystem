@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-de" xml:lang="de-de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="tbd." />
+  <title>lernOS Digitales Ökosystem Leitfaden</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">lernOS Digitales Ökosystem Leitfaden</h1>
+<p class="subtitle">tbd.</p>
+<p class="author">tbd.</p>
+<p class="date">Version 0.1 (xx.xx.2023)</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#über-lernos" id="toc-über-lernos"><span
+class="toc-section-number">1</span> Über lernOS</a>
+<ul>
+<li><a href="#motivation-und-lernziele"
+id="toc-motivation-und-lernziele"><span
+class="toc-section-number">1.1</span> Motivation und Lernziele</a></li>
+<li><a href="#erste-schritte" id="toc-erste-schritte"><span
+class="toc-section-number">1.2</span> Erste Schritte</a></li>
+<li><a href="#digitization-digitalisierung-digitale-transformation"
+id="toc-digitization-digitalisierung-digitale-transformation"><span
+class="toc-section-number">1.3</span> Digitization, Digitalisierung,
+Digitale Transformation</a>
+<ul>
+<li><a href="#grundlagen" id="toc-grundlagen"><span
+class="toc-section-number">1.3.1</span> Grundlagen:</a></li>
+<li><a href="#ready-steady-go-schau-dir-deine-erfahrungen-an-kata"
+id="toc-ready-steady-go-schau-dir-deine-erfahrungen-an-kata"><span
+class="toc-section-number">1.3.2</span> Ready steady go?! Schau dir
+deine Erfahrungen an (Kata)</a></li>
+</ul></li>
+<li><a href="#was-sind-digitale-ökosystem"
+id="toc-was-sind-digitale-ökosystem"><span
+class="toc-section-number">1.4</span> Was sind digitale Ökosystem</a>
+<ul>
+<li><a href="#grundlagen-1" id="toc-grundlagen-1"><span
+class="toc-section-number">1.4.1</span> Grundlagen</a></li>
+<li><a href="#vertiefe-dein-theoretisches-wissen-kata"
+id="toc-vertiefe-dein-theoretisches-wissen-kata"><span
+class="toc-section-number">1.4.2</span> Vertiefe dein theoretisches
+Wissen (Kata)</a></li>
+</ul></li>
+<li><a href="#chancen-und-herausforderungen"
+id="toc-chancen-und-herausforderungen"><span
+class="toc-section-number">1.5</span> Chancen und Herausforderungen</a>
+<ul>
+<li><a href="#grundlagen-2" id="toc-grundlagen-2"><span
+class="toc-section-number">1.5.1</span> Grundlagen</a></li>
+<li><a
+href="#finde-die-chancen-und-herausforderungen-von-digitalen-ökosystemen-kata"
+id="toc-finde-die-chancen-und-herausforderungen-von-digitalen-ökosystemen-kata"><span
+class="toc-section-number">1.5.2</span> Finde die Chancen und
+Herausforderungen von Digitalen Ökosystemen (Kata)</a></li>
+</ul></li>
+<li><a href="#rollen-in-digitalen-ökosystemen"
+id="toc-rollen-in-digitalen-ökosystemen"><span
+class="toc-section-number">1.6</span> Rollen in Digitalen
+Ökosystemen</a>
+<ul>
+<li><a href="#grundlagen-3" id="toc-grundlagen-3"><span
+class="toc-section-number">1.6.1</span> Grundlagen</a></li>
+<li><a href="#ordne-deine-eigene-rolle-zu-kata"
+id="toc-ordne-deine-eigene-rolle-zu-kata"><span
+class="toc-section-number">1.6.2</span> Ordne deine eigene Rolle zu
+(Kata)</a></li>
+</ul></li>
+<li><a href="#digitale-plattformen-und-plattform-geschäftsmodell"
+id="toc-digitale-plattformen-und-plattform-geschäftsmodell"><span
+class="toc-section-number">1.7</span> Digitale Plattformen und
+Plattform-Geschäftsmodell</a>
+<ul>
+<li><a href="#grundlagen-4" id="toc-grundlagen-4"><span
+class="toc-section-number">1.7.1</span> Grundlagen</a></li>
+<li><a href="#alles-rund-um-plattformen-kata"
+id="toc-alles-rund-um-plattformen-kata"><span
+class="toc-section-number">1.7.2</span> Alles Rund um Plattformen
+(Kata)</a></li>
+</ul></li>
+<li><a href="#unterschiedliche-arten-von-ökosystemen"
+id="toc-unterschiedliche-arten-von-ökosystemen"><span
+class="toc-section-number">1.8</span> Unterschiedliche Arten von
+Ökosystemen</a>
+<ul>
+<li><a href="#grundlagen-5" id="toc-grundlagen-5"><span
+class="toc-section-number">1.8.1</span> Grundlagen</a></li>
+<li><a href="#es-gibt-mehr-als-ein-ökosystem"
+id="toc-es-gibt-mehr-als-ein-ökosystem"><span
+class="toc-section-number">1.8.2</span> Es gibt mehr als ein
+Ökosystem</a></li>
+</ul></li>
+<li><a href="#phasen-der-gestaltung-eines-digitalen-ökosystems"
+id="toc-phasen-der-gestaltung-eines-digitalen-ökosystems"><span
+class="toc-section-number">1.9</span> Phasen der Gestaltung eines
+digitalen Ökosystems</a>
+<ul>
+<li><a href="#grundlagen-6" id="toc-grundlagen-6"><span
+class="toc-section-number">1.9.1</span> Grundlagen</a></li>
+<li><a href="#fünf-phasen-zum-erfolg-kata"
+id="toc-fünf-phasen-zum-erfolg-kata"><span
+class="toc-section-number">1.9.2</span> Fünf Phasen zum Erfolg
+(Kata)</a></li>
+</ul></li>
+<li><a
+href="#digital-mindset---blickwinkel-bei-der-gestaltung-von-lösungen-ändern"
+id="toc-digital-mindset---blickwinkel-bei-der-gestaltung-von-lösungen-ändern"><span
+class="toc-section-number">1.10</span> Digital Mindset - Blickwinkel bei
+der Gestaltung von Lösungen ändern</a></li>
+<li><a href="#grundlagen-7" id="toc-grundlagen-7"><span
+class="toc-section-number">1.11</span> Grundlagen</a>
+<ul>
+<li><a href="#wandel-beginnt-im-kopf-kata"
+id="toc-wandel-beginnt-im-kopf-kata"><span
+class="toc-section-number">1.11.1</span> Wandel beginnt im Kopf
+(Kata)</a></li>
+</ul></li>
+<li><a href="#monetarisierung-von-digitalen-ökosystemen"
+id="toc-monetarisierung-von-digitalen-ökosystemen"><span
+class="toc-section-number">1.12</span> Monetarisierung von Digitalen
+Ökosystemen</a>
+<ul>
+<li><a href="#grundlagen-8" id="toc-grundlagen-8"><span
+class="toc-section-number">1.12.1</span> Grundlagen</a></li>
+<li><a href="#wie-wird-ein-ökosystem-profitabel-kata"
+id="toc-wie-wird-ein-ökosystem-profitabel-kata"><span
+class="toc-section-number">1.12.2</span> Wie wird ein Ökosystem
+profitabel? (Kata)</a></li>
+</ul></li>
+<li><a href="#fallbeispiel-das-digitale-datev-ökosystem"
+id="toc-fallbeispiel-das-digitale-datev-ökosystem"><span
+class="toc-section-number">1.13</span> Fallbeispiel: Das Digitale
+DATEV-Ökosystem</a>
+<ul>
+<li><a href="#infos-über-das-digitale-datev-ökosystem"
+id="toc-infos-über-das-digitale-datev-ökosystem"><span
+class="toc-section-number">1.13.1</span> Infos über das Digitale
+DATEV-Ökosystem</a></li>
+<li><a href="#einblicke-in-das-datev-digitaler-ökosystem-kata"
+id="toc-einblicke-in-das-datev-digitaler-ökosystem-kata"><span
+class="toc-section-number">1.13.2</span> Einblicke in das DATEV
+Digitaler Ökosystem (Kata)</a></li>
+</ul></li>
+<li><a href="#fallbeispiel-sap-learning-ökosystem"
+id="toc-fallbeispiel-sap-learning-ökosystem"><span
+class="toc-section-number">1.14</span> Fallbeispiel: SAP Learning
+Ökosystem</a>
+<ul>
+<li><a href="#kata" id="toc-kata"><span
+class="toc-section-number">1.14.1</span> (Kata)</a></li>
+</ul></li>
+<li><a href="#fallbeispiel-continental"
+id="toc-fallbeispiel-continental"><span
+class="toc-section-number">1.15</span> Fallbeispiel: Continental</a>
+<ul>
+<li><a href="#continental-case-study"
+id="toc-continental-case-study"><span
+class="toc-section-number">1.15.1</span> Continental Case Study</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+<h1 data-number="1" id="über-lernos"><span
+class="header-section-number">1</span> Über lernOS</h1>
+<p>lernOS ist eine Methode zur Selbstorganisation für Menschen, die im
+21. Jahrhundert leben und arbeiten. Um heute erfolgreich zu sein, muss
+man ständig lernen, sich organisieren und weiterentwickeln. Niemand
+sonst ist für diesen Prozess verantwortlich. Man muss sich selber darum
+kümmern (selbstgesteuertes, lebenslanges Lernen).</p>
+<p>lernOS Leitfäden stehen unter der Lizenz <a
+href="https://creativecommons.org/licenses/by/4.0/deed.de">Creative
+Commons Namensnennung 4.0 International</a> (CC BY 4.0):</p>
+<p><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></p>
+<p><strong>Du darfst:</strong></p>
+<ul>
+<li><strong>Teilen</strong> - das Material in jedwedem Format oder
+Medium vervielfältigen und weiterverbreiten.</li>
+<li><strong>Bearbeiten</strong> - das Material remixen, verändern und
+darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.</li>
+</ul>
+<p><strong>Unter folgenden Bedingungen:</strong></p>
+<ul>
+<li><strong>Namensnennung</strong> - Du musst angemessene Urheber- und
+Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob
+Änderungen vorgenommen wurden. Diese Angaben dürfen in jeder
+angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der
+Eindruck entsteht, der Lizenzgeber unterstütze gerade Sie oder Ihre
+Nutzung besonders.</li>
+<li><strong>Keine weiteren Einschränkungen</strong> - Du darst keine
+zusätzlichen Klauseln oder technische Verfahren einsetzen, die anderen
+rechtlich irgendetwas untersagen, was die Lizenz erlaubt.</li>
+</ul>
+<h2 data-number="1.1" id="motivation-und-lernziele"><span
+class="header-section-number">1.1</span> Motivation und Lernziele</h2>
+<p>Mit Digitalen Ökosystemen und digitalen Plattformen verändern sich
+Geschäftsmodelle und die Wertschöpfung: Kunden befinden sich in einem
+digitalen Netzwerk von Anbietern und Dienstleistern, die ihre
+spezifischen Kompetenzen miteinander verknüpfen und so gemeinsam das
+Kundenerlebnis revolutionieren. Es verändert sich die Wertschöpfung,
+daher ist es bei der Gestaltung von Lösungen wichtig den Blickwinkel zu
+ändern. Die Wertschöpfung entsteht nicht mehr nur aus eigener Kraft,
+sondern durch Vernetzung, gemeinsame Daten und Marktaktivitäten der
+verschiedenen Ökosystem-Teilnehmer.</p>
+<p>Der Leitfaden unterstützt die Lernenden dabei ihr Mindset, d. h.
+ihre Einstellung, ihre Werte und ihre Haltung hinsichtlich Digitale
+Ökosysteme zu hinterfragen, zu reflektieren und
+weiterzuentwickeln. Dafür stellt der Leitfaden Wissen zum Thema Digitale
+Ökosysteme bereit, welches sich den folgenden Bereichen zuordnen
+lässt:</p>
+<ul>
+<li><p>Was sind Digitale Ökosysteme?</p></li>
+<li><p>Akzeptanz/Verständnis für Digitale Ökosysteme</p></li>
+<li><p>Fallbeispiele (z.B. Digitales DATEV Ökosystem, Continental und
+SAP)</p></li>
+</ul>
+<p>Ziel ist es nicht zu Lernen wie ein Digitales Ökosystem gestaltet
+oder wie ein bestehendes Digitales Ökosystem verbessert wird, sondern es
+geht um Digitale Ökosysteme mit Peer Learning verstehen zu lernen.</p>
+<p>Die Idee für die Gestaltung eines Leitfadens „Digitale Ökosysteme“
+entstand bei DATEV in einem Kompetenzkreis, welcher u. a. die
+Entwicklung von Mitarbeitenden in den Fokus nimmt. Daher hat der
+Leitfaden als Zielgruppe alle Mitarbeitende von DATEV, von Kanzleien,
+von Mandanten der Kanzleien, von DATEV-Marktplatz Partnern und von
+anderen Unternehmen.</p>
+<h2 data-number="1.2" id="erste-schritte"><span
+class="header-section-number">1.2</span> Erste Schritte</h2>
+<p>Wir freuen uns, dass ihr euch für den Lernpfad Digitales Ökosystem
+entschieden habt.</p>
+<p>Vorab gibt es noch einige Hinweise, welche euch helfen sollen, den
+Lernpfad zu durchlaufen.</p>
+<ul>
+<li><p>Jede Woche ist aufgeteilt in einen Grundlagenteil und eine Kata.
+Lest euch vor Bearbeitung der Kata die entsprechenden Grundlagen durch,
+damit ihr die Katas besser bearbeiten könnt.</p></li>
+<li><p>Eure Treffen können nach der folgenden Struktur aufgebaut
+werden:</p>
+<ul>
+<li><p>Check-In</p></li>
+<li><p>Kata Gruppenarbeit</p></li>
+<li><p>Was nehme ich aus dem heutigen Termin mit?</p></li>
+</ul></li>
+<li><p>Legt zusätzlich die organisatorischen Grundlagen für die
+Durchführung des Lernpfads fest:</p>
+<ul>
+<li>Welche Hilfsmittel verwendet ihr zur Selbst- und Gruppenorganisation
+(bspw. Videokonferenz Tool, Notizen, Chat etc.)? Wir empfehlen ein
+Kollaborationstool wie beispielsweise Conceptboard, um eure Gedanken
+strukturiert zu sammeln.</li>
+<li>An welchen Terminen finden die wöchentlichen Treffen statt?</li>
+<li>Werden die Katas im Treffen selbst oder vorab bearbeitet?</li>
+</ul></li>
+<li><p>Überlegt euch, ob ihr die verschiedenen Katas anhand von 1 bis 2
+Digitalen Ökosystemen erarbeitet, oder ihr euch jede Woche ein anderes
+Digitales Ökosystem anschaut. Eine Übersicht über Digitale Ökosysteme
+findet ihr in folgendem PDF-Dokument: <a
+href="https://www.iese.fraunhofer.de/content/dam/iese/dokumente/media/studien/studie-digitale-oekosysteme-in-deutschland-fraunhofer-iese.pdf">Digitale
+Ökosysteme in Deutschland (fraunhofer.de)</a></p></li>
+</ul>
+<p>Dieser Lernpfad basiert stark auf den Veröffentlichungen von
+Fraunhofer IESE. Aus diesem Grund findet ihr in der weiterführenden
+Literatur die gleichen Artikel, wobei unterschiedliche Abschnitte für
+die jeweilige Woche relevant sind.</p>
+<p>Nach den ganzen Hinweisen und organisatorischen Punkten, lernt euch
+innerhalb eurer Gruppe kennen und tauscht euch aus:</p>
+<ul>
+<li><p>Was hat euch auf diese Lernreise gebracht? Was hat euch geleitet
+- persönliche Begegnungen, Erfahrungen oder gar eigene Betroffenheit?
+Vielleicht gibt es auch keinen spezifischen Auslöser, sondern einfach
+nur Neugierde auf das Thema?</p></li>
+<li><p>Was interessiert euch/ begeistert euch am Thema Digitale
+Ökosysteme?</p></li>
+<li><p>Wie habt ihr davon gehört und wie seid ihr auf das Thema und auf
+den Lernpfad aufmerksam geworden?</p></li>
+</ul>
+<h2 data-number="1.3"
+id="digitization-digitalisierung-digitale-transformation"><span
+class="header-section-number">1.3</span> Digitization, Digitalisierung,
+Digitale Transformation</h2>
+<h3 data-number="1.3.1" id="grundlagen"><span
+class="header-section-number">1.3.1</span> Grundlagen:</h3>
+<p>In der ersten Inhaltswoche unseres Lernpfades wird eine Theoretische
+Grundlage gelegt. Dabei werden die Begriffe Digitization,
+Digitalisierung und Digitale Transformation erklärt.</p>
+<p><strong>Digitization = Prozess, der analoge Daten in digitale
+Informationen umwandelt. Dabei beinhaltet der Prozess die Übertragung
+von analogen Daten auf digitale Speichermedien.</strong></p>
+<p>Beispiel Digitization: Analoge Musik wird zu digitaler Musik.
+Übertragung von einem Lied von einer Schallplatte auf eine CD. Auf der
+Schallplatte war die Musik analog und auf der CD ist die Musik jetzt
+digital. So können digitale Informationen leichter gespeichert, gesucht,
+weitergegeben und auch vervielfältigt werden.</p>
+<p><strong>Digitalisierung = Durch die Nutzung von digitalen
+Technologien und digitalisierter Daten können digitale Prozesse
+ermöglicht oder auch verbessert werden. Die Digitalisierung setzt daher
+die Digitization voraus.</strong></p>
+<p>Beispiel Digitalisierung: Musik wird jetzt nicht mehr im Laden
+gekauft, sondern im Onlineshop.</p>
+<p><strong>Digitale Transformation = Die digitale Transformation
+beschreibt den Prozess der Umstellung von traditionellen
+Geschäftsmodellen und Arbeitsmethoden auf digitale Technologien und
+Prozesse. Digitale Transformation ermöglicht neben Digitalen Ökosystemen
+und Plattformen viele weitere neue digitale Geschäftsmodelle, die durch
+Digitalisierungstechnologien ermöglicht werden.</strong></p>
+<p>Beispiel Digitale Transformation: Spotify ermöglicht das Streamen von
+Musik zu einem monatlichen Abo Preis. Es wird also nicht mehr nur eine
+CD gekauft, sondern man erhält den Zugriff auf viel mehr Musik, die man
+so ggf. nicht gekauft hätte.</p>
+<p>Quelle: <a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a> Abschnitt Was haben Digitale
+Ökosysteme mit Digitaler Transformation zu tun?</p>
+<h3 data-number="1.3.2"
+id="ready-steady-go-schau-dir-deine-erfahrungen-an-kata"><span
+class="header-section-number">1.3.2</span> Ready steady go?! Schau dir
+deine Erfahrungen an (Kata)</h3>
+<p>Im Grundlagenteil 1 sammelt ihr erste Grundlagen und Erkenntnisse
+über das Thema Digitales Ökosystem.</p>
+<ul>
+<li><p>Wenn ihr an euren Alltag denkt, welche Erfahrungen habt ihr als
+Kund:innen in Digitalen Ökosystemen gemacht? Beispielsweise als Kunde
+bei Amazon, FlixBus oder auch Air BnB.</p></li>
+<li><p>Was begeistert euch an diesen Angeboten, was irritiert
+euch?</p></li>
+</ul>
+<p>Sucht euch ein Digitales Ökosystem und diskutiert eure Erfahrungen
+anhand der Fragen.</p>
+<ul>
+<li><p>Fallen euch weitere Beispiele für die Phasen von Digitization
+über Digitalisierung zur Digitalen Transformation ein?</p></li>
+<li><p>Im Laufe der letzten Jahrzehnte haben so manche Unternehmen den
+Sprung auf eine neue Technologie verpasst. Kennt ihr Unternehmen, welche
+die Digitization, Digitalisierung oder Digitalen Transformation
+verschlafen haben? Diskutiert die Ursachen.</p></li>
+</ul>
+<p><strong>Weiterführende Links:</strong></p>
+<p>Möchtest du noch mehr über digitale Ökosystem wissen? Dann schaut
+euch folgende Links zu Artikeln, Podcast und YouTube Videos an:</p>
+<ul>
+<li><p><a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a> Abschnitt Was haben Digitale
+Ökosysteme mit Digitaler Transformation zu tun?</p></li>
+<li><p><a
+href="https://morethandigital.info/digitization-digitalisierung-und-digitale-transformation-erklaert-unterschiede-verstehen-inkl-beispiele/">Digitization,
+Digitalisierung und Digitale Transformation erklärt - Unterschiede
+verstehen inkl. Beispiele (morethandigital.info)</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=gVdtVa8Tp1Y">Webinar
+»Aufbruch zu Digitalen Ökosystemen« - YouTube</a> Minute 2:00 –
+8:20</p></li>
+<li><p><a
+href="https://www.datev-magazin.de/praxis/arbeit-soziales/es-kommt-nicht-auf-die-groesse-an-106205">Es
+kommt nicht auf die Größe an – DATEV magazin
+(datev-magazin.de)</a></p></li>
+<li><p><a
+href="https://detektor.fm/wissen/forschungsquartett-digitales-oekosystem">Forschungsquartett
+| Digitales Ökosystem – Gut vernetzt | detektor.fm – Das
+Podcast-Radio</a></p></li>
+</ul>
+<h2 data-number="1.4" id="was-sind-digitale-ökosystem"><span
+class="header-section-number">1.4</span> Was sind digitale
+Ökosystem</h2>
+<h3 data-number="1.4.1" id="grundlagen-1"><span
+class="header-section-number">1.4.1</span> Grundlagen</h3>
+<p>In diesem Abschnitt wollen wir näher auf die Definitionen und
+Kennzeichen von digitalen Ökosystemen an.</p>
+<p>Definitionen:</p>
+<p><strong>Digitales Ökosystem (nach Fraunhofer IESE)</strong> =
+sozio-technisches System, welches nicht nur digitale, technische
+Systeme, sondern auch die Organisationen und Menschen mit ihren
+Beziehungen untereinander umfasst. Im Zentrum des digitalen Ökosystems
+steht eine digitale Plattform, welche die Kooperation zwischen den
+Beteiligten über Ökosystem-Services unterstützt. (Quelle: <a
+href="https://www.iese.fraunhofer.de/de/leistungen/digitale-oekosysteme.html">Fraunhofer
+Digitale Ökosysteme, Plattformen und Plattformökonomie</a>, Abschnitt
+Was sind Digitale Ökosysteme?)</p>
+<p><strong>Digitales Ökosystem (nach Bearing Point)</strong>: „Ein
+Digitales Ökosystem entsteht, wenn ein Unternehmen in der Lage ist, ein
+Netzwerk aus Partnern, Kunden, Entwicklern und anderen Akteuren zu
+knüpfen und zu verwalten. Alle beteiligten Akteure arbeiten auf einer
+einzigen Plattform auf ein gemeinsames Ziel hin. Mit anderen Worten:
+Alle ziehen an einem Strang.”  (Quelle: <a
+href="https://www.bearingpoint.com/de-de/insights-events/insights/wie-macht-man-sich-nicht-nur-beliebt-sondern-unerlaesslich-man-erschafft-ein-digitales-oekosystem/">Digital
+Ecosystem Management | BearingPoint Deutschland</a>, Abschnitt Klingt
+gut – doch was genau ist ein Digitales Ökosystem?).</p>
+<p><strong>Ökosystem-Service</strong> = Die Zusammenarbeit in einem
+digitalen Ökosystem wird durch einen Ökosystem-Service unterstützt. Der
+Ökosystem-Service wird vom Ökosystem-Initiator angeboten und bietet die
+Grundlage, um Mehrwerte für die Teilnehmer im digitalen Ökosystem zu
+generieren. Er wird vollständig digital erbracht. Die vermittelnde
+Leistung kann analog erfolgen (z.B. FlixBus: Vermittlung ist digital,
+vermittelte Leistung die Busfahrt ist analog). (Quelle: <a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt Ökosystem Service)</p>
+<p>“Der Gesamtnutzen eines Digitalen Ökosystems ergibt sich somit aus
+der Kombination der digitalen, vermittelnden Plattform und einer großen
+Menge an Partnern, die zum gegenseitigen Nutzen am Digitalen Ökosystem
+teilnehmen und durch ihre Interaktionen über die Plattform zu
+Netzwerkeffekten führen.” (Quelle: <a
+href="https://www.iese.fraunhofer.de/de/leistungen/digitale-oekosysteme.html">Fraunhofer
+Digitale Ökosysteme, Plattformen und Plattformökonomie</a>, Abschnitt
+Was sind Digitale Ökosysteme?)</p>
+<p>Kennzeichen Digitale Ökosysteme:</p>
+<ul>
+<li><p>Der Ökosystem-Initiator schafft die Rahmenbedingungen, damit die
+Teilnahme am digitalen Ökosystem ein Mehrwert liefert.</p></li>
+<li><p>Das digitale Ökosystem adressiert die Bedürfnisse potenzieller
+Konsumenten</p></li>
+<li><p>Digitale Ökosystem Teilnehmer agieren unabhängig voneinander auf
+dem jeweiligen Markt</p></li>
+<li><p>Es gibt keine Instanz, die den Einstieg/Verbleib von Teilnehmern
+im digitalen Ökosystem erzwingt</p></li>
+<li><p>Digitale Ökosysteme werden sowohl im B2B als auch im B2C Bereich
+angeboten</p></li>
+<li><p>Durch Digitale Ökosysteme können verschiedene Geschäftsmodelle
+angeboten werden</p></li>
+</ul>
+<p>(Quelle: <a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt Digitales Ökosystem)</p>
+<h3 data-number="1.4.2"
+id="vertiefe-dein-theoretisches-wissen-kata"><span
+class="header-section-number">1.4.2</span> Vertiefe dein theoretisches
+Wissen (Kata)</h3>
+<p>Im Grundlagenteil 2 bekommt ihr eine Übersicht über die Definition
+von Digitale Ökosystemen und lernt Kennzeichen kennen. Ihr solltet die
+Frage „Was sind Digitale Ökosysteme” grundlegend beantworten können.</p>
+<ul>
+<li><p>Formuliert in 2-3 Sätzen euer Verständnis von einem digitalen
+Ökosystem (Ihr werdet es zu einem späteren Zeitpunkt wieder
+aufgreifen)</p></li>
+<li><p>Versucht anhand eines digitalen Ökosystems den Ökosystem-Service
+zu beschreiben und die Kennzeichen herauszuarbeiten. Dadurch soll euer
+Verständnis vertieft werden.</p></li>
+</ul>
+<p><strong>Weiterführende Links:</strong></p>
+<p>Möchtest du noch mehr über digitale Ökosystem wissen? Dann schaut
+euch folgende Links zu Artikeln und YouTube Videos an:</p>
+<ul>
+<li><p><a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt Was sind Digitale
+Ökosysteme</p></li>
+<li><p><a
+href="https://www.iese.fraunhofer.de/de/leistungen/digitale-oekosysteme.html">Fraunhofer
+Digitale Ökosysteme, Plattformen und Plattformökonomie</a>, Abschnitt
+Was sind Digitale Ökosysteme?</p></li>
+<li><p><a
+href="https://www.bearingpoint.com/de-de/insights-events/insights/wie-macht-man-sich-nicht-nur-beliebt-sondern-unerlaesslich-man-erschafft-ein-digitales-oekosystem/">Digital
+Ecosystem Management | BearingPoint Deutschland</a>, Abschnitt Klingt
+gut – doch was genau ist ein Digitales Ökosystem?</p></li>
+<li><p><a
+href="https://morethandigital.info/was-ist-ein-digitales-oekosystem-das-profitabelste-geschaeftsmodell-verstehen/">Was
+ist ein Digitales Ökosystem? - Das profitabelste Geschäftsmodell
+verstehen (morethandigital.info)</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=gVdtVa8Tp1Y">Webinar
+»Aufbruch zu Digitalen Ökosystemen« - YouTube</a> Minute 8:50 –
+16:20</p></li>
+</ul>
+<h2 data-number="1.5" id="chancen-und-herausforderungen"><span
+class="header-section-number">1.5</span> Chancen und
+Herausforderungen</h2>
+<h3 data-number="1.5.1" id="grundlagen-2"><span
+class="header-section-number">1.5.1</span> Grundlagen</h3>
+<p>In diesem Grundlagenteil schauen wir uns die Chancen,
+Herausforderungen und Nachteile von digitalen Ökosystemen an. Die
+folgenden Chancen, Herausforderungen und Nachteile stellen nur einen
+kurzen Teil der Potentiale von digitalen Ökosystemen dar. Es gibt noch
+viele weitere.</p>
+<p><strong>Chancen:</strong></p>
+<ul>
+<li><p>Neue Geschäftsmodelle und Netzwerkeffekte: Umsetzung neue
+Geschäftsmodelle und Effizienzsteigerung. Der Ökosystem Initiator hat
+den Anreiz, dass digitale Ökosystem wachsen zu lassen und
+Netzwerkeffekte zu nutzten.</p></li>
+<li><p>Offenheit für Teilnehmer und einfacher Einstieg: Oft haben
+Digitale Ökosysteme keine Zugangsbeschränkung, damit der Einstieg so
+einfach wie möglich ist.</p></li>
+<li><p>Wachstumspotential und hohe Skalierbarkeit: Schnelle und
+kostengünstige Skalierung durch die digitale Plattform.</p></li>
+</ul>
+<p>(Quelle: <a
+href="https://www.iese.fraunhofer.de/de/leistungen/digitale-oekosysteme.html">Fraunhofer
+Digitale Ökosysteme, Plattformen und Plattformökonomie</a>, <a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt: Was sind Chancen für
+Unternehmen durch Digitale Ökosysteme?)</p>
+<p><strong>Herausforderungen:</strong></p>
+<ul>
+<li><p>Komplexität: Hohen Gesamtkomplexität des digitale Ökosystems
+durch verschiedene Teilnehmer und Komponenten.</p></li>
+<li><p>Schnelligkeit und Ausdauer: Das Ökosystem, welches schnell viele
+Partner an sich bindet und eine Kunden Community aufbaut, hat
+langfristig eine höhere Erfolgschance, aufgrund der höheren
+Attraktivität für Partner. Es muss mit einem längerer Betrachtungsrahmen
+für die Etablierung des digitalen Ökosystems gerechnet werden.</p></li>
+<li><p>Unsicherheit und fehlende Erfolgsgarantie: Das Ökosystem geht mit
+vielen Unsicherheiten einher. Zudem werden signifikante Finanzmittel und
+Investitionen benötigt, um das Ökosystem aufzubauen. Digitale Ökosysteme
+zahlen sich oft erst nach Jahren aus.</p></li>
+</ul>
+<p>(Quelle: <a
+href="https://www.iese.fraunhofer.de/de/leistungen/digitale-oekosysteme.html">Fraunhofer
+Digitale Ökosysteme, Plattformen und Plattformökonomie</a>, Abschnitt:
+Was sind Herausforderungen im Umgang mit Digitalen Ökosystemen?)</p>
+<p><strong>Nachteile:</strong></p>
+<ul>
+<li><p>Geringe Anzahl an erfolgreich konkurrierende Digitale Ökosysteme:
+Oft setzten sich nur wenige Ökosysteme im gleichen Bereich erfolgreich
+durch, da Ökosysteme, die einen ähnlichen Zweck haben, um die gleichen
+Teilnehmer und um das gleiche Geschäft konkurrieren.</p></li>
+<li><p>Monopolstellungen: Aufgrund der wenig konkurrierenden Ökosysteme
+in einem Bereich, haben diese oft eine Monopolstellung. So hat der
+Ökosystem-Initiator eine enorme Machtstellung und kann die Bedingungen
+der Teilnahme diktieren.</p></li>
+</ul>
+<p>(Quelle: <a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt: Mögliche Nachteile
+durch Digitale Ökosysteme)</p>
+<h3 data-number="1.5.2"
+id="finde-die-chancen-und-herausforderungen-von-digitalen-ökosystemen-kata"><span
+class="header-section-number">1.5.2</span> Finde die Chancen und
+Herausforderungen von Digitalen Ökosystemen (Kata)</h3>
+<p>Digitale Ökosysteme sind aktuell ein viel diskutiertes Thema. Nach
+Grundlagenteil 3 solltet ihr Chancen, Herausforderungen und Nachteilen
+kennen gelernt haben.</p>
+<ul>
+<li><p>Macht eine Recherche: Welches digitale Ökosystem ist erfolgreich
+am Markt?</p></li>
+<li><p>Stellt basierend auf euren Ergebnissen einen Katalog für
+Erfolgsfaktoren für ein neues Digitales Ökosystem zusammen.</p></li>
+<li><p>Könnt ihr diese Erfolgsfaktoren auch bei anderen digitalen
+Ökosysteme erkennen?</p></li>
+<li><p>Was macht für euch ein erfolgreiches Digitales Ökosystem aus?
+Geht sowohl von der Konsumenten-Perspektive als auch von der
+Anbieter-Perspektive darauf ein.</p></li>
+</ul>
+<p><strong>Weiterführende Links:</strong></p>
+<ul>
+<li><p><a
+href="https://www.iese.fraunhofer.de/de/leistungen/digitale-oekosysteme.html">Fraunhofer
+Digitale Ökosysteme, Plattformen und Plattformökonomie</a>, Abschnitt:
+Was sind Herausforderungen im Umgang mit Digitalen Ökosystemen?, Was
+sind Chancen für Unternehmen durch Digitale Ökosysteme?)</p></li>
+<li><p><a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt: Welche Chancen bieten
+Digitale Ökosysteme?</p></li>
+<li><p><a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt: Mögliche Nachteile
+durch Digitale Ökosysteme</p></li>
+<li><p><a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-welche-herausforderungen-stellt-der-aufbau-und-wie-gelingt-er.html">Digitale
+Ökosysteme: Welche Herausforderungen stellt der Aufbau und wie gelingt
+er?</a>, Abschnitt: Herausforderungen für
+Ökosystem-Initiatoren)</p></li>
+</ul>
+<h2 data-number="1.6" id="rollen-in-digitalen-ökosystemen"><span
+class="header-section-number">1.6</span> Rollen in Digitalen
+Ökosystemen</h2>
+<h3 data-number="1.6.1" id="grundlagen-3"><span
+class="header-section-number">1.6.1</span> Grundlagen</h3>
+<p>In diesem Abschnitt wollen wir näher auf die verschiedenen Rollen und
+deren Unterscheidungen eingehen (wir beziehen uns dabei auf das Modell
+von Fraunhofer IESE).  Wir werfen dabei einen Blick auf die Ökosystem
+Initiatoren und die Ökosystem Teilnehmer.</p>
+<p>Der <strong>Ökosystem-Initiator</strong> ist der Betreiber des
+Ökosystem und kümmert sich um den operativen Alltag. Der Initiator
+stellt sicher, dass das Ökosystem funktioniert.</p>
+<p>Die Ökosystem-Teilnehmer werden in direkte Ökosystem-Teilnehmern
+(Partner) und indirekte Ökosystem-Teilnehmern unterschieden:</p>
+<ul>
+<li><p><strong>Direkte Ökosystem-Teilnehmer</strong> haben eine direkte
+Schnittstelle zur digitalen Plattform. Die Schnittstelle kann sowohl
+technischer Art als auch eine (grafische) Nutzerschnittstelle sein.
+Direkte Ökosystem-Teilnehmer werden als Ökosystem-Partner bezeichnet.
+Sie nutzen die Digitale Plattform unmittelbar.</p></li>
+<li><p>Ökosystem-Teilnehmer mit <strong>indirekter
+Schnittstelle</strong> zur digitalen Plattform, sind Teilnehmer, die
+lediglich mit der Plattform interagieren.</p></li>
+</ul>
+<p>Dabei können Ökosystem-Partner und Ökosystem-Teilnehmer mit
+indirekter Schnittstelle sowohl auf der Anbieter-, als auch auf der
+Konsumentenseite liegen. Wichtig dabei ist, dass alles als Teil des
+digitalen Ökosystems betrachtet wird, was durch die Anwesenheit des
+digitalen Ökosystems signifikant beeinflusst wird.</p>
+<p>Zur Verdeutlichung der Unterscheidung von Ökosystem-Partner und
+Ökosystem-Teilnehmer wird als Beispiel das Digitale Ökosystem von
+Caruso, einem Marktplatz für Fahrzeugdaten, betrachtet. Caruso ist der
+Ökosystem-Initiator. Der Fahrer eines Fahrzeugs, welches Fahrzeugdaten
+über eine direkte Schnittstelle zur Digitalen Plattform von Caruso
+sendet, ist kein Ökosystem-Partner. Da der Fahrer nicht direkt die
+Fahrzeugdaten an die Plattform schickt, sondern das Fahrzeug. Dennoch
+spielt der Fahrer eine wichtige Rolle, weil er sein Einverständnis zur
+Datenübertragung geben muss. Er ist Ökosystem-Teilnehmer mit indirekter
+Schnittstelle auf Anbieterseite. Der Fahrzeughersteller des Fahrzeugs
+ist ein Ökosystem-Partner auf Anbieterseite. Diese Unterscheidung soll
+zu einem besseren Verständnis der Ökosystem Grenzen beitragen.</p>
+<h3 data-number="1.6.2" id="ordne-deine-eigene-rolle-zu-kata"><span
+class="header-section-number">1.6.2</span> Ordne deine eigene Rolle zu
+(Kata)</h3>
+<p>In dieser Woche habt ihr die Rollen von Digitalen Ökosystemen
+kennengelernt.</p>
+<ul>
+<li><p>Betrachte nochmal die bisherigen Beispiele - welche Rollen
+hattest du in diesen Beispielen eingenommen?</p></li>
+<li><p>Übertrage deine Erfahrungen auf dein Unternehmen - wer übernimmt
+welche Rollen als Ökosystem-Partner bzw. Teilnehmer?</p></li>
+<li><p>Betrachte nun deine persönliche Sicht: welche Rolle nimmst du in
+deinem Unternehmenskontext ein?</p></li>
+<li><p>Bist du in unterschiedlichen Schnittstellen in unterschiedlichen
+Rollen unterwegs?</p></li>
+<li><p>Hat sich eure Rolle durch ein Digitales Ökosystem verändert und
+inwiefern haben sich eure Aufgaben und Rollenbeschreibung
+weiterentwickelt?</p></li>
+</ul>
+<p><strong>Weitere Informationen:</strong></p>
+<ul>
+<li><p><a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt: Ökosystem-Teilnehmer
+und Ökosystem-Partner</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=gVdtVa8Tp1Y">Webinar
+»Aufbruch zu Digitalen Ökosystemen« - YouTube</a> Minute 37:43 –
+38:48</p></li>
+<li><p><a
+href="https://www.plattform-i40.de/IP/Redaktion/DE/Downloads/Publikation/Digitale_Oekosysteme.pdf?__blob=publicationFile&amp;v=1">Industrie
+4.0 – Kartellrechtliche Betrachtungen (plattform-i40.de)</a></p></li>
+</ul>
+<h2 data-number="1.7"
+id="digitale-plattformen-und-plattform-geschäftsmodell"><span
+class="header-section-number">1.7</span> Digitale Plattformen und
+Plattform-Geschäftsmodell</h2>
+<h3 data-number="1.7.1" id="grundlagen-4"><span
+class="header-section-number">1.7.1</span> Grundlagen</h3>
+<p>Diese Woche wollen wir auf digitale Plattformen und
+Plattformgeschäftsmodelle eingehen.</p>
+<p>Eine digitale Plattform steht häufig im Mittelpunkt des digitalen
+Ökosystems. Hierbei ist die Plattform die technische Umsetzung und
+ermöglicht den Ökosystem-Service. Auf der Plattform werden die
+Kerntätigkeiten des Ökosystem-Services abgebildet, es können aber auch
+weitere Funktionalitäten über die Plattform aufgerufen werden. Der
+Plattformbetreiber ist in der Regel der Plattform-Initiator. Dieser
+manifestiert die von ihm festgelegten Regeln auf der digitalen
+Plattform. Somit spielt der Initiator eine wichtige Rolle für den Erfolg
+einer Plattform (<a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt: Digitale Plattform).
+Die Plattform verbindet die Teilnehmer miteinander für den Austausch von
+Informationen oder Leistungen, tritt also als Vermittler auf, ohne
+eigene Produkte oder Dienstleistungen anzubieten (<a
+href="https://blog.hubspot.de/sales/plattformoekonomie">Plattformökonomie:
+Das Geschäftsmodell der Tech-Giganten</a> ).</p>
+<p>Durch Plattformen können verschiedene Geschäftsmodelle angeboten
+werden. Ein Geschäftsmodell beschreibt, wie ein Unternehmen funktioniert
+und Gewinne erwirtschaftet. Nach Gassmanns et al. “magischen Dreieck”
+werden vier Dimensionen zur Beschreibung von Geschäftsmodellen benötigt
+( <a
+href="https://www.linkedin.com/pulse/teil-2-st-gallener-business-model-navigator-christian-hoffmeister/?originalSubdomain=de">St. Gallener
+Business Model Navigator</a> , Abschnitt Methodik):</p>
+<ul>
+<li><p>Kunde: Wer sind die Zielkunden? Wie müssen diese adressiert
+werden? Der Kunde steht im Mittelpunkt des Geschäftsmodelles.</p></li>
+<li><p>Nutzenversprechen: Welche Leistung bietet das Unternehmen, um die
+Kundenbedürfnisse zu befriedigen?</p></li>
+<li><p>Wertschöpfungskette: Alle Prozesse, Aktivitäten, Ressourcen,
+Fähigkeit und die Koordination dieser, um das Nutzenversprechen zu
+erzielen.</p></li>
+<li><p>Ertragsmechanik: Wie wird Wert erzielt? In dieser Dimension wird
+die finanzielle Perspektive aufgezeigt mit der Kostenstruktur und die
+Umsatzmechanismen</p></li>
+</ul>
+<p>Bei einem plattformbasierten Geschäftsmodell werden die wesentlichen
+Aspekte eines Geschäftsmodells, welche oben beschrieben sind, mit Hilfe
+einer Plattformlösung bereitgestellt, wobei ein Mehrwert für den Kunden
+generiert wird. Durch die Plattform werden Transaktionen in einem
+mehrseitigen Markt ermöglicht. Durch spezifische Ertragsmodelle werden
+Erträge generiert. Es können strategische Partnerschaften für ein
+breiteres Angebot eingegangen werden (Quelle: <a
+href="https://www.mittelstand-digital-wertnetzwerke.de/fileadmin/user_upload/Glossar_Plattformoekonomie.pdf">Glossar_Plattformoekonomie.pdf</a>,
+Abschnitt Plattformbasiertes Geschäftsmodell)</p>
+<h3 data-number="1.7.2" id="alles-rund-um-plattformen-kata"><span
+class="header-section-number">1.7.2</span> Alles Rund um Plattformen
+(Kata)</h3>
+<p>Im Grundlagenteil 5 sind wir auf das Herzstück eines digitalen
+Ökosystems näher eingegangen: die digitale Plattform.</p>
+<ul>
+<li><p>Als nächstes schaut euch ein plattformbasiertes Geschäftsmodell,
+wie z.B. von Spotify oder Amazon, an. Bildet dieses Geschäftsmodell
+mithilfe Gassmanns “magischen Dreiecks” oder mit dem Business Model
+Canvas ab. Falls ihr nicht wisst, wie das Business Model Canvas
+funktioniert, schaut euch folgendes Video an: <a
+href="https://www.youtube.com/watch?v=g6WBrvbTQdg">Das Business Model
+Canvas - YouTube</a></p></li>
+<li><p>Wenn ihr als Team gemeinsam zurück in Woche 2 schaut, stellt euch
+die Frage, ob sich euer Verständnis von Digitalen Ökosystemen verändert
+hat und wenn ja, inwiefern?</p></li>
+</ul>
+<p><strong>Weitere Informationen:</strong></p>
+<p>Schaut euch noch die unten verlinkten YouTube Videos an, um euer
+Plattform Verständnis weiter zu vertiefen:</p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=qwLs-n9PkgE">Digitale
+Plattformen - Erklärvideo - YouTube</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=LOL_fGTtVn0">Report
+Digitalisierung: Digitale Plattformen - YouTube</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=_UtpdS5mcdE">Digitale
+Plattformen (15:07 Minuten) - YouTube</a></p></li>
+</ul>
+<p>Weiterführende Informationen:</p>
+<ul>
+<li><p><a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt: Digitale
+Plattform</p></li>
+<li><p><a
+href="https://www.mittelstand-digital-wertnetzwerke.de/fileadmin/user_upload/Glossar_Plattformoekonomie.pdf">Glossar_Plattformoekonomie.pdf,
+Abschnitt:</a> Abschnitt Plattformbasiertes Geschäftsmodell</p></li>
+<li><p><a
+href="https://www.linkedin.com/pulse/teil-2-st-gallener-business-model-navigator-christian-hoffmeister/?originalSubdomain=de">St. Gallener
+Business Model Navigator</a></p></li>
+<li><p>Gassmann, Frankenberger, Choudury (2020) Geschäftsmodelle
+entwickeln: 55 innovative Konzepte mit dem St. Galler Business
+Model</p></li>
+<li><p><a
+href="https://blog.hubspot.de/sales/plattformoekonomie">Plattformökonomie:
+Das Geschäftsmodell der Tech-Giganten</a></p></li>
+<li></li>
+</ul>
+<h2 data-number="1.8" id="unterschiedliche-arten-von-ökosystemen"><span
+class="header-section-number">1.8</span> Unterschiedliche Arten von
+Ökosystemen</h2>
+<h3 data-number="1.8.1" id="grundlagen-5"><span
+class="header-section-number">1.8.1</span> Grundlagen</h3>
+<p>In diesem Grundlagenteil wir auf weitere Formen von Ökosystemen ein.
+Dieser Abschnitt bildet einen Teil von Ökosystemarten ab und es gibt
+noch, abhängig von den Quellen, weitere Arten.</p>
+<p><strong>Business Ökosystem:</strong></p>
+<p>Business Ökosysteme sind sich dynamisch entwickelnde Gemeinschaften
+eigenständiger Akteure, die über abgestimmte Technologien, Normen und
+Regeln interagieren, um in gekoppelten Geschäftsmodellen gegenseitig
+Werte zu schaffen. Dabei können sie verschieden Rollen wie Initiator,
+Konsument oder auch Anbieter einnehmen. Gemeinsam werden neue Märkte
+gebildet, welche keiner der Parteien allein bedienen könnte. Die
+gemeinschaftliche Wertschöpfung ist daher auf ein gemeinsames Ziel
+ausgerichtet. Grundlage für Interaktion und Zusammenarbeit ist dabei
+individuelle Fähigkeiten als auch die Bedürfnisse der Akteure. Diese
+müssen im Business Ökosystem möglichst zielführend orchestriert werden.
+Dazu können aufeinander abgestimmte Technologien oder Werkzeuge erreicht
+werden. Für ein erfolgreiches Business Ökosystem muss ein jeder
+Teilnehmer seinen Beitrag leisten, aber auch einen Mehrwert
+erhalten.</p>
+<p>Die nachfolgenden Ökosysteme sind Typen von Business Ökosystemen. Die
+einzelnen Ansätze beleuchten oftmals ähnliche Aspekte aus
+unterschiedlichen Perspektiven. Weitere Typen von Business Ökosystemen
+findet ihr hier: <a
+href="https://ccecosystems.news/business-ecosytem-innovation-ecosystem-platform-ecosystem-wie-viele-ecosystembegriffe-braucht-es-wirklich/">Business
+Ecosystem, Innovation Ecosystem, Platform Ecosystem – Wie viele
+Ecosystembegriffe braucht es wirklich?</a></p>
+<p><strong>Innovationsökosystem:</strong></p>
+<p>Besteht aus Akteuren, Aktivitäten und Artefakte sowie Institutionen
+und Beziehungen, welche für die Schaffung von innovativen
+Produkten/Dienstleistungen relevant sind.</p>
+<p><strong>Digitales Business Ökosystem:</strong></p>
+<p>Digitale Ökosysteme sind digitalisierte Business Ökosysteme. Der
+Wissensaustausch und die Zusammenarbeit findet über Informations- und
+Kommunikationstechnologien statt. Diese Definition ist eine Erweiterung
+der Definitionen von digitalen Ökosystemen, welche ihr in Kapitel 2 noch
+einmal nachlesen könnt.</p>
+<p><strong>Wissens- und Informationsökosystem</strong></p>
+<p>Ökosysteme die Wissens- und Informationsressourcen nutzen, um Wert zu
+generieren. Häufig ist es dezentrales Wissen und Informationsquellen,
+die durch Austausch dieser Werte Synergien erzeugen. Zum Beispiel
+Forschungseinrichtungen oder Universitäten, welche die relevanten
+Informationen bereitstellen.</p>
+<p><strong>Domänen-Ökosystem</strong></p>
+<p>Ein Domänen-Ökosystem ist ein etabliertes Netzwerk aus Partnern und
+Wertschöpfungsketten in einer Geschäftsdomäne. Domänen-Ökosysteme
+bestehen häufig aus bereits bestehenden Digitalen Ökosystemen. Innerhalb
+eines Domänen-Ökosystem kann es sowohl konkurrierende als auch sich
+ergänzende Ökosysteme agieren. Kunden können sich in mehreren
+Domänen-Ökosystemen bewegen und innerhalb eines Domänen-Ökosystem. Der
+Begriff Domänen-Ökosystem wird von Fraunhofer IESE hauptsächlich
+verwendet. (Quelle: <a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt: Domänen-Ökosystem)</p>
+<p>Ein Beispiel ist das Domänen-Ökosystem “Reisen”. Hier finden sich die
+datenbasierte Ökosysteme von Online-Reisevermittlern, wie beispielsweise
+expedia.de. Des Weiteren befindet sich im Domänen-Ökosystem auch
+Online-Vermittler von Leihwägen, wie beispielsweise
+billiger-mietwagen.de. Diese könnten den Leihwagen günstiger anbieten,
+wenn der Hersteller Teil eines Ökosystems zur Sammlung und Verwertung
+von Fahrzeugdaten ist, wie zum Beispiel Caruso. Weitere
+Domänen-Ökosysteme sind Versicherung, Wohnen, Gesundheit, Fitness und
+viele weitere. (Quelle: <a
+href="https://www.google.de/books/edition/Digitale_%C3%96kosysteme/O68vEAAAQBAJ?hl=de&amp;gbpv=0">Digitale
+Ökosysteme - Google Books</a>)</p>
+<h3 data-number="1.8.2" id="es-gibt-mehr-als-ein-ökosystem"><span
+class="header-section-number">1.8.2</span> Es gibt mehr als ein
+Ökosystem</h3>
+<p>In dem Grundlagenteil 6 solltet ihr verstanden haben, was genau
+Domänen-Ökosysteme und Business Ökosysteme sind und was sie ausmachen.
+Schaut euch gerne das kurze Video zu Business Ökosystemen an: <a
+href="https://www.youtube.com/watch?v=6HZkGgY52cE">Business Ecosystems
+in 100 Sekunden - YouTube</a></p>
+<ul>
+<li><p>Nachdem ihr euch mit verschiedenen Arten von Ökosystemen
+beschäftigt habt, welche Unterschiede in den Ökosystemarten könnt ihr
+feststellen, welche Gemeinsamkeiten?</p></li>
+<li><p>In Anlehnung and das Business Model Canvas wurde das Business
+Ecosystem Canvas eingeführt. Dabei hilft es bei der Strukturierung von
+kollaborativen Geschäftsmodellen. Versucht mit diesem Modell ein
+Ökosystem zu strukturieren. Einführung und Template findet ihr unter <a
+href="https://ccecosystems.news/das-business-ecosystem-canvas-eine-einfuehrung/">Das
+Business Ecosystem Canvas – eine Einführung</a></p></li>
+</ul>
+<p><strong>Weitere Informationen:</strong></p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=gVdtVa8Tp1Y">Webinar
+»Aufbruch zu Digitalen Ökosystemen« - YouTube</a> Minute 29:00 –
+38:00</p></li>
+<li><p><a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html">Digitale
+Ökosysteme und Plattformökonomie</a>, Abschnitt:
+Domänen-Ökosystem</p></li>
+<li><p><a
+href="https://ccecosystems.news/business-ecosytem-innovation-ecosystem-platform-ecosystem-wie-viele-ecosystembegriffe-braucht-es-wirklich/">Business
+Ecosystem, Innovation Ecosystem, Platform Ecosystem – Wie viele
+Ecosystembegriffe braucht es wirklich?</a></p></li>
+<li><p><a
+href="https://www.google.de/books/edition/Digitale_%C3%96kosysteme/O68vEAAAQBAJ?hl=de&amp;gbpv=0">Digitale
+Ökosysteme - Google Books</a></p></li>
+<li><p><a
+href="https://www.google.de/books/edition/Business_%C3%96kosystem_Design/DHUvEAAAQBAJ?hl=de&amp;gbpv=0">Business
+Ökosystem Design - Google Books</a></p></li>
+</ul>
+<h2 data-number="1.9"
+id="phasen-der-gestaltung-eines-digitalen-ökosystems"><span
+class="header-section-number">1.9</span> Phasen der Gestaltung eines
+digitalen Ökosystems</h2>
+<h3 data-number="1.9.1" id="grundlagen-6"><span
+class="header-section-number">1.9.1</span> Grundlagen</h3>
+<p>In diesem Grundlagenteil werden die typischen Phasen der Gestaltung,
+welche von digitalen Ökosystemen durchlaufen werden, vorgestellt.</p>
+<p>Bei dem Aufbau und Etablierung eines digitalen Ökosystems werden laut
+Fraunhofer IESE oft fünf typische Phasen durchlaufen: die
+Positionierung, die Gestaltung, der Aufbau eines Minimal Viable Products
+(MVP), das startende Wachstum und das expandierende Wachstum. Im
+folgendem werden alle fünf Phasen kurz erläutert:     </p>
+<ul>
+<li><p><strong>Positionierung:</strong> Das ist die Entscheidung über
+die Positionierung des digitalen Ökosystems innerhalb des betreffenden
+Domänen-Ökosystems. Hierfür sind gute Kenntnis und eine Analyse der
+Eigenschaften und Funktionen des Domänen-Ökosystems notwendig. Für eine
+gute Positionierung müssen die Stakeholder-Bedürfnisse identifiziert
+werden.</p></li>
+<li><p><strong>Gestaltung:</strong> Beinhaltet die Entwicklung von
+konkreten Ideen für einen Ökosystem-Service und die Erprobung an
+verschiedenen Beispielen. Dazu muss das digitale Ökosystem umfassend und
+tiefgreifend durchdacht werden und die Funktionsweisen, Asset-Flüsse,
+Geldflüsse, Datenflüsse und Vertragsbeziehungen explizit gestaltet und
+dokumentiert werden.</p></li>
+<li><p><strong>Aufbau MVP:</strong> Es sollte möglichst schnell ein MVP
+entwickelt werden, damit am Markt Stellung bezogen werden kann. Daher
+muss Umfang und Komplexität der Idee reduziert werden, damit ein
+nützliches Ergebnis entsteht. Das MVP sollte allerdings die Idee und die
+Funktionsweise des Ökosystem-Service gut darstellen und Begeisterung
+erzeugen können.</p></li>
+<li><p><strong>Startendes Wachstum:</strong> Durch Early Adopters und
+zusätzliche Maßnahmen zur Zusammenführung von Partnern und Schaffung von
+Anreizen werden sukzessive mehr Teilnehmer ins digitale Ökosystem
+gebracht, Angebot und Nachfrage steigen.</p></li>
+<li><p><strong>Expandierendes Wachstum:</strong> Durch selbst
+verstärkende Netzwerkeffekte kann starkes Wachstum beginnen. Wichtig
+ist, dass möglichst eine hohe Menge an Partnern und verfügbare Angebote
+im digitalen Ökosystem vorhanden sind.</p></li>
+</ul>
+<p>(Quelle: <a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-welche-herausforderungen-stellt-der-aufbau-und-wie-gelingt-er.html">Digitale
+Ökosysteme: Welche Herausforderungen stellt der Aufbau und wie gelingt
+er?, Abschnitt:</a> Phasen der Etablierung eines Digitalen
+Ökosystems)</p>
+<p>Dies ist ein idealtypischer Verlauf. Bei einer erfolgreichen
+Etablierung werden normalerweise diese Phasen durchlaufen, allerdings
+können die Übergänge fließend sein und die Phasen in unterschiedlichen
+Ausprägungen vorkommen.</p>
+<h3 data-number="1.9.2" id="fünf-phasen-zum-erfolg-kata"><span
+class="header-section-number">1.9.2</span> Fünf Phasen zum Erfolg
+(Kata)</h3>
+<p>Im Grundlagenteil 7 haben wir uns mit den fünf Phasen befasst, welche
+für den Aufbau und die Etablierung eines digitalen Ökosystems
+verantwortlich sind.</p>
+<ul>
+<li><p>Auf was muss bei der Etablierung eines Digitalen Ökosystems in
+jeder Phase geachtet werden? Schreibt gemeinsam eine Checkliste, damit
+zukünftige Implementierungen möglichst erfolgreich ablaufen.</p></li>
+<li><p>Habt ihr bereits Erfahrungen mit sich entwickelnden Digitalen
+Ökosystemen gemacht? Diskutiert über die Parallelen aber auch die
+Unterschiede von dem theoretischen Fraunhofer Modell und euren eigenen
+Erfahrungen zur Etablierung von Digitalen Ökosystemen.</p></li>
+<li><p>Nachdem ihr nun Grundkenntnisse und Gestaltungsmöglichkeiten von
+Digitalen Ökosystemen erlernt habt, reflektiert als Gruppe den Begriff
+„Digitales Ökosystem”. Haben sich eure Verständnisse angenähert oder
+sind sie sogar gleich? Wo liegen noch die Unterschiede in eurem
+Verständnis über Digitale Ökosysteme?</p></li>
+</ul>
+<p>Falls ihr Tools zur Gestaltung von Digitalen Ökosystemen kennenlernen
+möchtet, schaut euch die folgenden Tools an:</p>
+<ul>
+<li><p><a
+href="https://www.iese.fraunhofer.de/blog/digitale-oekosysteme-greifbar-machen/">»Digitale
+Ökosysteme virtuell greifbar machen geht nicht?« – »Doch!« - Blog des
+Fraunhofer IESE</a></p></li>
+<li><p><a
+href="https://www.iese.fraunhofer.de/de/seminare_training/webinare/digitale-oekosysteme-1.html">Webinar
+»Aufbruch zu Digitalen Ökosystemen« - Fraunhofer IESE</a></p></li>
+<li><p><a
+href="https://www.iese.fraunhofer.de/de/seminare_training/webinare/digitale-oekosysteme-2.html">Webinar
+»Design Digitaler Ökosysteme« - Fraunhofer IESE</a></p></li>
+<li><p><a href="https://www.ecosystemizer.com/">Navigate Business
+Ecosystem with ease (ecosystemizer.com)</a></p></li>
+<li><p><a href="https://platforminnovationkit.com/">PLATFORM INNOVATION
+KIT – Platform Business Model Innovation with the Platform
+Innovation</a></p></li>
+</ul>
+<p><strong>Weitere Informationen:</strong></p>
+<ul>
+<li><a
+href="https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-welche-herausforderungen-stellt-der-aufbau-und-wie-gelingt-er.html">Digitale
+Ökosysteme: Welche Herausforderungen stellt der Aufbau und wie gelingt
+er?, Abschnitt:</a> Phasen der Etablierung eines Digitalen
+Ökosystems</li>
+</ul>
+<h2 data-number="1.10"
+id="digital-mindset---blickwinkel-bei-der-gestaltung-von-lösungen-ändern"><span
+class="header-section-number">1.10</span> Digital Mindset - Blickwinkel
+bei der Gestaltung von Lösungen ändern</h2>
+<h2 data-number="1.11" id="grundlagen-7"><span
+class="header-section-number">1.11</span> Grundlagen</h2>
+<p>Diese Woche schauen wir uns das digitale Mindset an und inwiefern der
+Wechsel von einer Inside-Out zu einer Outside-In Perspektive hilfreich
+ist.</p>
+<p>Für ein Digitales Ökosystem ist das Mindset und die Bereitschaft für
+Veränderung aller Beteiligten ebenfalls ein wichtiger Aspekt. Das
+Digital Mindset ist vor allem für die Digitale Transformation wichtig
+und damit auch für Digitale Ökosysteme (Quelle: <a
+href="https://www.karrierefuehrer.de/digital/digital-mindset.html">Digital
+Mindset - karriereführer</a>).</p>
+<p>Es gibt unterschiedliche Verständnisse und Definitionen von Digital
+Mindset. In ihren Kernaussagen beziehen sie sich alle Definitionen auf
+Persönlichkeitseigenschaften bzw. Verhaltensmuster, welche nicht direkt
+beobachtbar sind, aber das Denken, Handeln und Fühlen im Kontext der
+Digitalen Transformation strukturieren. Sie beinhalten die grundlegende
+Erkenntnis, dass digitale Prozesse starken Einfluss auf unser Leben,
+unsere Arbeit sowie unsere Kommunikation nehmen.</p>
+<p>Es können nach Bredendiek und Knorr (2020) sechs erfolgskritische
+Persönlichkeitsdispositionen herausgearbeitet werden, die insbesondere
+im berufsbezogenen Kontext ein digitales Mindset beschreiben:</p>
+<ul>
+<li><p>Offenheit und Agilität: Verhalten in einer Konfrontation mit
+neuen oder ungewohnten digitalen Entwicklungsmöglichkeiten.</p></li>
+<li><p>Proaktivität und unternehmerische Handlungsorientierung:
+Motivation das Unternehmen proaktiv voranzutreiben mit Blick auf den
+Gesamtkontext</p></li>
+<li><p>Kreativität und Gestaltungsmotivation: Schaffung und Initiierung
+von sinnvollen Neuerungen</p></li>
+<li><p>Kundenzentriertheit: Integration der Kundensicht bei der
+Lösungsfindung</p></li>
+<li><p>Kritikfähigkeit: Kritische Betrachtung von eigenem und fremdem
+Handeln für konstruktive Optimierungen</p></li>
+<li><p>Offener Umgang mit Scheitern: Bereitschaft offen mit Scheitern
+und Misserfolg umzugehen</p></li>
+</ul>
+<p>(Quelle: <a
+href="https://www.dci.digital/definition-digitales-mindset">Definition
+Digitales Mindset</a>)</p>
+<p>Ein wesentliches Merkmal eines Digitalen Ökosystem ist, dass es für
+alle Teilnehmer einen Mehrwert liefert. Um diesen Mehrwert zu erreichen,
+ist ein Perspektivenwechsel empfehlenswert. Anstatt nur die Inside-Out
+Perspektive zu betrachten, sollte die Outside-In Perspektive mit
+einbezogen werden. Aber was genau ist mit diesen Perspektiven
+gemeint?</p>
+<ul>
+<li><p><strong>Inside-Out:</strong> Zuerst Kundenlösungen entwickeln und
+dann den Wunsch bei den Kunden nach der Lösung wecken. Beispiele hierfür
+sind Apple und Tesla.</p></li>
+<li><p><strong>Outside-In:</strong> Zuerst Kundenbedürfnisse ermitteln
+und danach für die Bedürfnisse Lösungen finden. Beispiele für diese
+Perspektive sind Uber und Airbnb.</p></li>
+</ul>
+<p>(Quelle: <a
+href="https://www.linkedin.com/pulse/mit-inside-out-oder-outside-in-zu-neuen-rene-schwarb/?originalSubdomain=de">Mit
+Inside-Out oder Outside-In zu neuen Geschäftsideen | LinkedIn</a>)</p>
+<p>Durch den Perspektivenwechsel kann der Kundennutzen im Digitalen
+Ökosystem vorangetrieben werden, und je mehr Kunden im Digitalen
+Ökosystem aktiv sind, desto attraktiver ist das Digitale Ökosystem für
+alle anderen Teilnehmer.</p>
+<h3 data-number="1.11.1" id="wandel-beginnt-im-kopf-kata"><span
+class="header-section-number">1.11.1</span> Wandel beginnt im Kopf
+(Kata)</h3>
+<p>In dieser Woche beschäftigt ihr euch mit dem Digital Mindset für
+Digitale Ökosysteme und warum die Outside-In Perspektive für die
+Gestaltung von Digitalen Ökosystemen wichtig ist.</p>
+<ul>
+<li><p>Schaut euch zunächst den folgenden TED-Talk zum Thema Mindset an:
+<a href="https://www.youtube.com/watch?v=qtd-CFO5ips">Why digital
+transformation has little to do with technology! Tobias Burkhardt</a>.
+Stimmt ihr der Meinung von Tobias Burkhardt zu?</p></li>
+<li><p>Geht nun individuell die 6 Persönlichkeitsdispositionen durch und
+bewertet, wie weit ihr diese erfüllt. Wie ausgeprägt ist euer Digital
+Mindset?</p></li>
+<li><p>Sprecht nun in der Gruppe über eure Stärken, aber auch über eure
+Schwächen.</p></li>
+<li><p>Was möchtet ihr an eurer täglichen Arbeit verändern, um das
+Digital Mindset aber auch die Outside-In Perspektive besser umsetzen zu
+können?</p></li>
+<li><p>Was muss sich in eurem Bereich hierfür verändern? Besprecht eure
+Ergebnisse in der Gruppe. Könnt ihr gemeinsam Veränderungen
+anstoßen?</p></li>
+</ul>
+<p><strong>Weitere Informationen:</strong></p>
+<ul>
+<li><p><a
+href="https://www.karrierefuehrer.de/digital/digital-mindset.html">Digital
+Mindset - karriereführer</a></p></li>
+<li><p><a
+href="https://www.dci.digital/definition-digitales-mindset">Definition
+Digitales Mindset</a></p></li>
+<li><p><a
+href="https://morethandigital.info/was-ist-ein-digitales-mindset-6-dimensionen-die-ein-digitales-mindset-definieren/">Was
+ist ein digitales Mindset? 6 Dimensionen, die ein digitales Mindset
+definieren</a></p></li>
+<li><p><a
+href="https://www.linkedin.com/pulse/mit-inside-out-oder-outside-in-zu-neuen-rene-schwarb/?originalSubdomain=de">Mit
+Inside-Out oder Outside-In zu neuen Geschäftsideen |
+LinkedIn</a></p></li>
+<li><p><a
+href="https://sgbs.ch/publication/die-zukunft-des-index-x-re-launch-oder-marktaustritt/3-3-1-outside-in-perspektive-market-based-view#:~:text=Dieser%20klassische%20Marketingansatz%20konzentriert%20sich,der%20Kunden%20in%20den%20Vordergrund.">St. Galler
+Business School (sgbs.ch)</a></p></li>
+<li><p><a
+href="https://www.sydle.com/blog/inside-out-and-outside-in-strategies-6144a26be83193407d5fbb26#:~:text=With%20the%20outside%2Din%20strategy,desire%20for%20it%20in%20customers.">Learn
+What Inside-Out and Outside-In Strategies Are and How Automation Can
+Help Them | Blog SYDLE</a></p></li>
+</ul>
+<h2 data-number="1.12"
+id="monetarisierung-von-digitalen-ökosystemen"><span
+class="header-section-number">1.12</span> Monetarisierung von Digitalen
+Ökosystemen</h2>
+<h3 data-number="1.12.1" id="grundlagen-8"><span
+class="header-section-number">1.12.1</span> Grundlagen</h3>
+<p>Bevor es zu den Fallbeispielen geht, schauen wir uns diese Woche die
+verschiedenen Arten der Monetarisierungsmöglichkeiten von digitalen
+Ökosystemen an.</p>
+<p>Es gibt verschiedene Geschäftsmodelle für Digitale Ökosystem. Mit den
+Monetarisierungsstrategien sollen die Kunden dauerhaft gebunden werden
+aber auch die Plattform bzw. das Digitale Ökosystem für Leistungen von
+Drittanbietern attraktiv gestaltet werden. Bekannte
+Monetarisierungsmodelle sind (<a
+href="https://www.de.digital/DIGITAL/Redaktion/DE/Digital-Gipfel/Download/2019/digitale-souveraenitaet.pdf?__blob=publicationFile&amp;v=3">Digitale
+Souveränität im Kontext plattformbasierter Ökosysteme</a>):</p>
+<p><strong>Transaktions- und Mitgliedschaftsgebühren:</strong> Bei
+Mitgliedschaftsgebühren leisten die Nutzer einen wiederkehrenden
+Beitrag, der die Nutzung der Plattform ermöglicht. Bei der
+Transaktionsgebühr erhält der Betreiber eine feste Gebühr/Prozentsatz
+vom Kaufvolumen bei einer durchgeführten Transaktion. Dies findet sowohl
+im B2B als auch im B2C Bereich Anwendung und es gibt diverse Mischformen
+z.B. für den Zugang zur Plattform eine Mitgliedschaftsgebühr und dann
+wird pro Transaktion eine Zahlung fällig.</p>
+<p><strong>Lock-In-Effekt und Wechselkosten:</strong> Lock-in zielt auf
+eine Stärkere Bindung des Kunden an die Plattform ab. Dabei wird eine
+technologische Verbindung zwischen angebotene Hard- und Software und
+Internetdiensten geschaffen. Innerhalb des Digitalen Ökosystems wird es
+schwieriger, Leistungen von Drittanbietern außerhalb des Digitalen
+Ökosystems zu nutzen. Der Wechsel kann daher sehr aufwendig werden, da
+Schnittstellen oder technologische Standards fehlen, um die
+Dienste/Endgeräte miteinander zu verknüpfen</p>
+<p><strong>Schnittstellenpolitik:</strong> Plattformen setzen
+Entwicklerschnittstellen (APIs) ein, um Drittanbieter mit komplementären
+Angeboten an das eigene Digitale Ökosystem zu binden. Der
+Plattformbetreiber bestimmt, ob und unter welchen Bedingungen eine
+Schnittstelle zu seiner Plattform genutzt werden kann. Durch die
+Bereitstellung von APIs ergeben sich für plattformbasierte Ökosysteme
+zwei entscheidende Vorteile: Durch externe Applikationen ergeben sich
+für die Nutzer neue Einsatzmöglichkeiten, wodurch die Attraktivität der
+Plattform selbst steigt. Gleichzeitig bindet der Plattformbetreiber die
+Entwicklergemeinde an sich und schafft zusätzliche Lock-In-Effekte. APIs
+können auf volkswirtschaftlicher Ebene zu mehr Effizienz, Produktivität
+und Wirtschaftswachstum führen. Weitere Infos zu APIs findet ihr unter:
+<a href="https://www.ibm.com/topics/api">What is an Application
+Programming Interface (API)? | IBM</a></p>
+<p><strong>Strategische Allianz:</strong> Eine zukünftige Entwicklung
+von Digitalen Ökosystemen liegt in der stärkeren Interaktion zwischen
+den Beteiligten und die Bereitschaft, strategische Allianzen miteinander
+oder mit Drittanbietern einzugehen. Dadurch werden Synergien und
+Schnittmengen hinsichtlich Größe, Reichweite, Kunden und
+Integrationsmöglichkeiten erreicht und auch für die Kunden wird ein
+Mehrwert geschaffen.</p>
+<p><strong>Werbefinanzierung:</strong> Anwender können bestimmte Dienste
+kostenlos nutzen z.B. Websuche oder Soziale Medien. Dabei wird den
+Nutzern Werbung angezeigt, worüber die Plattform finanziert wird. Die
+dadurch generierten Daten ermöglichen Zielgruppenspezifische Werbung.
+Diese Strategie wird v.a. im B2C Kontext angewendet. Es werden auch
+Kombinationen aus werbefinanzierter und mitgliedschaftsfinanzierter
+Monetarisierung angeboten.</p>
+<h3 data-number="1.12.2"
+id="wie-wird-ein-ökosystem-profitabel-kata"><span
+class="header-section-number">1.12.2</span> Wie wird ein Ökosystem
+profitabel? (Kata)</h3>
+<p>Im Grundlagenteil 9 habt ihr euch mit einigen
+Monetarisierungsstrategien auseinandergesetzt. Die Grundlagen bilden
+lediglich einen Teil der Strategien ab und es gibt noch viele
+weitere.</p>
+<ul>
+<li><p>Schaut euch die aufgeführten Monetarisierungsstrategien in den
+Grundlagen an, fallen euch zu den Strategien Beispiele von Digitalen
+Ökosystemen ein, welche diese verwenden?</p></li>
+<li><p>Welche Monetarisierungsstrategien nutzt ihr in eurem Alltag,
+welche in eurem Arbeitsleben?</p></li>
+<li><p>Fallen euch noch weitere Möglichkeiten der Monetarisierung von
+Digitalen Ökosystemen ein und wie könnten diese aussehen?</p></li>
+</ul>
+<p><strong>Weiterführende Links</strong></p>
+<ul>
+<li><p><a
+href="https://www.de.digital/DIGITAL/Redaktion/DE/Digital-Gipfel/Download/2019/digitale-souveraenitaet.pdf?__blob=publicationFile&amp;v=3">Digitale
+Souveränität im Kontext plattformbasierter Ökosysteme</a></p></li>
+<li><p><a href="https://www.ibm.com/topics/api">What is an Application
+Programming Interface (API)? | IBM</a></p></li>
+</ul>
+<h2 data-number="1.13"
+id="fallbeispiel-das-digitale-datev-ökosystem"><span
+class="header-section-number">1.13</span> Fallbeispiel: Das Digitale
+DATEV-Ökosystem</h2>
+<p>In diesem Fallbeispiel wird das DATEV digitale Ökosystem erklärt.</p>
+<h3 data-number="1.13.1"
+id="infos-über-das-digitale-datev-ökosystem"><span
+class="header-section-number">1.13.1</span> Infos über das Digitale
+DATEV-Ökosystem</h3>
+<p>Als Genossenschaft des steuerberatenden Berufsstands fördert DATEV
+die wirtschaftliche Entwicklung der Mitglieder:innen und deren digitale
+Zusammenarbeit mit ihren Unternehmenskunden. Digitalisierung der
+betriebswirtschaftlichen Prozesse war für DATEV schon immer zentral.
+Aber der Fokus lag in der Vergangenheit meist auf eigenen Lösungen.</p>
+<p>Die Herausforderungen der digitalen Transformation und damit
+einhergehenden heterogenen Bedürfnisse der Anwender, sind nicht mehr von
+einem Software-Hersteller allein zu bewältigen. Aus diesem Grund ist
+DATEV in Richtung einer Ökosystem-Transformation gegangen und setzt
+dabei auf enge Zusammenarbeit mit spezialisierten Partnern. Kanzleien
+mit ihren Unternehmenskunden stehen im Fokus des Digitalen
+DATEV-Ökosystems. Das Ziel des Digitalen DATEV-Ökosystems ist es,
+digitale Geschäftsprozesse durchgängiger zu gestalten und Möglichkeiten
+für neue Geschäftsideen zu schaffen. Es soll jeder Prozessschritt
+nahtlos ineinander übergreifen, unabhängig davon, ob bei einer Software
+in der Kanzlei, bei Systemen der Unternehmenskunden oder bei
+Institutionen wie der Finanzverwaltung. Es sollen Daten ohne Brüche
+übernommen, bearbeitet und ausgetauscht werden können. Dies funktioniert
+über standardisierte Schnittstellen (APIs). Die APIs werden von der
+DATEV wie ein eigenes Produkt behandelt. Es kann mit Partnern in vielen
+verschiedenen Bereichen kooperiert werden, beispielsweise in der
+Infrastruktur, Cloud-Systemen oder auch in der Software-Entwicklung. Mit
+einem attraktiven digitalen Ökosystem ergänzt DATEV das eigene
+Leistungsportfolio, um vielseitiger, flexibler und schneller zu
+werden.</p>
+<p>Ein wichtiges Instrument dabei ist der DATEV-Marktplatz. Auf dem
+DATEV-Marktplatz sind Lösungen von Software-Herstellern gelistet, welche
+die DATEV-Produkte sinnvoll ergänzen. Die Partnerlösungen sind
+größtenteils über die DATEV-Datenservices mit den DATEV-Produkten
+verbunden. Dies ermöglicht einen automatisierten und sicheren
+Datenaustausch. Es wird zwischen DATEV-Marktplatz Premium Partner und
+DATEV-Marktplatz Schnittstellen Partner unterschieden. Die Lösungen der
+DATEV-Marktplatz Premium Partner werden von DATEV bewusst ausgewählt und
+empfohlen. Dabei besteht eine enge Zusammenarbeit bei der
+Marktbearbeitung und der Weiterentwicklung der Schnittstelle. Die
+Lösungen der DATEV-Marktplatz Schnittstellen Partner ergänzen die
+DATEV-Lösungen sinnvoll und haben eine moderne DATEV Integration. Die
+Software-Hersteller profitieren von der Listung auf dem DATEV-Markplatz,
+von einer regelmäßig geprüften Schnittstelle und einem persönlichen
+Partnermanager. Zusätzlich gibt es noch die DATEV Schnittstellen
+Anbieter, welche nicht auf dem DATEV-Marktplatz gelistet sind, aber eine
+DATEV-Schnittstelle umgesetzt haben.</p>
+<p>Durch das digitale Ökosystem der DATEV können auch Kanzleien mit
+unterschiedlichen Schwerpunkten sich gegenseitig ergänzen und
+voneinander profitieren. Das Ökosystem funktioniert nur durch das Öffnen
+aller Beteiligten. Es soll für jeden Akteur ein Mehrwert generiert
+werden, also für die Mitgliedern, die Unternehmen, die Partnern und auch
+für DATEV.</p>
+<p>Quellen: <a
+href="https://www.datev.de/web/de/ueber-datev/portfolioentwicklung/partnering/datev-marktplatz/">DATEV-Marktplatz</a>,
+<a
+href="https://www.datev.de/web/de/ueber-datev/das-digitale-oekosystem-von-datev/">Das
+digitale Ökosystem von DATEV</a>, <a
+href="https://www.datev-magazin.de/wp-content/uploads/magazinausgaben/ausgabe/datev_magazin_2023_09-app.pdf">datev_magazin_2023_09.pdf</a>,
+<a
+href="https://www.datev.de/web/de/mydatev/datev-cloud-services/">DATEV-Datenservices</a></p>
+<h3 data-number="1.13.2"
+id="einblicke-in-das-datev-digitaler-ökosystem-kata"><span
+class="header-section-number">1.13.2</span> Einblicke in das DATEV
+Digitaler Ökosystem (Kata)</h3>
+<p>In dieser Woche habt ihr einen Überblick über das Digitale DATEV
+Ökosystem erhalten. Schaut euch das kurze Video über das DATEV Ökosystem
+an: <a href="https://www.youtube.com/watch?v=99Tk5LR4SRw">Business-Spot:
+Das DATEV-Ökosystem - YouTube</a>.</p>
+<ul>
+<li>Habt ihr schon erste Erfahrungen im DATEV Ökosystem sammeln können,
+oder ist dieses Fallbeispiel der erste Berührungspunkt? Tausch euch in
+eurem Learning Circle darüber aus.</li>
+</ul>
+<p>Mit folgendem Link kommt ihr auf den <a
+href="https://www.datev.de/web/de/m/marktplatz/">DATEV-Marktplatz</a>.
+Schaut euch diesen an, um eine Übersicht über die vielen verschiedenen
+Partner von DATEV zu gewinnen.</p>
+<ul>
+<li>Nachdem ihr sowohl mit dem Marktplatz als auch mit dem Ökosystem von
+DATEV etwas näher vertraut seid, versucht dieses zu Visualisieren. Könnt
+ihr die Rollen festlegen und allgemeine Merkmale von Digitalen
+Ökosystemen erkennen?</li>
+</ul>
+<p><strong>Weiterführende Links:</strong></p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=e5CWqebBdbI">DATEV
+DigiCamp - Mittagsimpuls mit Jutta Rößner und Winfried Felser -
+YouTube</a></p></li>
+<li><p><a
+href="https://www.datev.de/web/de/ueber-datev/portfolioentwicklung/partnering/datev-marktplatz/">DATEV-Marktplatz</a></p></li>
+<li><p><a
+href="https://www.datev.de/web/de/ueber-datev/das-digitale-oekosystem-von-datev/">Das
+digitale Ökosystem von DATEV</a></p></li>
+<li><p><a
+href="https://www.datev-magazin.de/wp-content/uploads/magazinausgaben/ausgabe/datev_magazin_2023_09-app.pdf">datev_magazin_2023_09.pdf</a></p></li>
+<li><p><a
+href="https://www.datev.de/web/de/mydatev/datev-cloud-services/">DATEV-Datenservices</a></p></li>
+<li><p><a
+href="https://www.trialog-magazin.de/produkte-und-loesungen/datev-marktplatz-zusammenkommen-im-oekosystem/">DATEV-Marktplatz:
+Zusammenkommen im Ökosystem - DATEV TRIALOG-Magazin</a></p></li>
+</ul>
+<p>Weiter Infos DATEV Intern:</p>
+<ul>
+<li><p>O-Töne am 20.09.2022: Das Ökosystem der DATEV</p></li>
+<li><p><a
+href="https://weiterbildung.bk.datev.de:8444/ecadia/action?kursid=9939">DATEV-Marktplatz:
+Einführung in das strategische Partnermanagement |
+ecadiaPro</a></p></li>
+<li><p><a
+href="https://confluence.datev.de/pages/viewpage.action?pageId=258262676">Digitales
+DATEV-Ökosystem - Ökosystem Office - Confluence</a></p></li>
+</ul>
+<h2 data-number="1.14" id="fallbeispiel-sap-learning-ökosystem"><span
+class="header-section-number">1.14</span> Fallbeispiel: SAP Learning
+Ökosystem</h2>
+<p>In diesem Fallbeispiel wird auf das SAP Learning Ökosystem
+eingegangen.</p>
+<p><strong>Links zu den Grundlagen</strong></p>
+<ul>
+<li><p><a
+href="https://groups.community.sap.com/t5/sap-training-and-change-management/gh-p/training-change">SAP
+Training and Change Management - SAP Community Groups</a></p></li>
+<li><p><a
+href="https://groups.community.sap.com/t5/sap-training-and-change-management/aufruf-zur-blogparade-rund-um-digital-adoption-mit-sap/ba-p/290339">Aufruf
+zur Blogparade rund um Digital Adoption mit… - SAP Community
+Groups</a></p></li>
+<li><p><a
+href="https://www.linkedin.com/feed/update/urn:li:activity:6872538737876770816/">(17)
+Posten | Feed | LinkedIn</a></p></li>
+</ul>
+<p><strong>WHAT?</strong> 8 P Model:</p>
+<p>Purpose, Plattform(s), Personas, People, Processes, Partner,
+Paradigma, Performance</p>
+<p>*Inspired by the 7P of customer experience by Johannes Ceh</p>
+<p><strong>WHY?</strong> Market-Oriented:</p>
+<p><a
+href="https://www.amazon.de/Reinventing-Organization-Companies-Radically-Fast-Changing/dp/1633697703/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;keywords=reinventing+organization+dave+ulrich&amp;qid=1573546648&amp;sr=8-1">Reinventing
+the Organization: How Companies Can Deliver Radically Greater Value in
+Fast-Changing Markets - Yeung, Arthur, Ulrich, Dave - Amazon.de:
+Bücher</a> - Antwort auf Marktänderungen</p>
+<p><strong>Varianten von Lern-Ökosystemen:</strong></p>
+<ul>
+<li><p>Knowledge Ecosystems / Communities</p></li>
+<li><p>Use of Learning to scale Business Ecosystems</p></li>
+<li><p>Aligning all learning &amp; development contents, platforms &amp;
+stakeholders + communities </p></li>
+</ul>
+<p><strong>Beispiel SAP:</strong> Part of SAPs strategy to scale and
+deliver value to our customers:</p>
+<ul>
+<li><p>Partner Ecosystem (Channel &amp; VAR/ Sales, ISV/ Development,
+SI/ Implementation)</p></li>
+<li><p>From Developer Community to SAP Community with 3 Mio active
+users</p></li>
+</ul>
+<h3 data-number="1.14.1" id="kata"><span
+class="header-section-number">1.14.1</span> (Kata)</h3>
+<ul>
+<li><p>Welche Dimensionen / Elemente eines Ökosystems sind für Dich
+wichtig?</p></li>
+<li><p>Was ist die Variante die relevant ist? </p></li>
+<li><p>Analysiere Dein Ist Ökosystem und Skizziere Dein To Be Ökosystem
+grafisch incl. Purpose statement</p></li>
+<li><p>Entwickele eine Roadmap / Gameplan entlang der Ökosystem
+Dimensionen die du ändern willst - Reflektiere Hebel die beim Skalieren
+helfen (crowdsourcing, Plattformen etc.)</p></li>
+<li><p>Definiere die Stakeholder Journey durch dein to be
+ökosystem</p></li>
+</ul>
+<h2 data-number="1.15" id="fallbeispiel-continental"><span
+class="header-section-number">1.15</span> Fallbeispiel: Continental</h2>
+<p>In diesem Fallbeispiel wird die Continental IT
+Collaboration-Systemlandschaft erklärt.</p>
+<h3 data-number="1.15.1" id="continental-case-study"><span
+class="header-section-number">1.15.1</span> Continental Case Study</h3>
+<p>In unserer Organisation nutzen wir eine ganzheitliche IT
+Collaboration-Systemlandschaft, die sich in die nachfolgenden vier
+Nutzungssäulen einteilt als digitales Ökosystem:</p>
+<p>Orientierungsaufgabe:</p>
+<p>Nutzt diese vier Nutzungssäulen und ordnet Eure verfügbaren Tools für
+Kommunikation und Zusammenarbeit in Eurem Kontext (z.B. für Eure
+Abteilung, Euer Projekt-Team oder die gesamte Organisation) zu. Dazu
+kann Euch das nachfolgende Template unten weiterhelfen. Reflektiert die
+jeweiligen Vor- und Nachteile in ihrer jeweiligen Anwendung. *</p>
+<ul>
+<li><p>*Beispiel 1 - Teams: Wenn Ihr versucht, Teams für die
+organisationsweite Kommunikation und Zusammenarbeit zu verwenden, werdet
+Ihr die Leute überlasten (außer dass es nur als Newsletter verwendet
+wird – wofür es nicht gedacht ist.</p></li>
+<li><p>*Beispiel 2 - Enterprise Social Network (ESN): in reines Social
+Communication Tool (Yammer) hat keine Zusammenarbeitsfunktionen, da es
+vor Allem für Marketing und Kommunikation gemacht ist</p></li>
+</ul>
+<p><strong>Hinweis</strong>: Bedenke die Anzahl der möglichen
+(sinnvollen) maximalen Teilgebenden einer Anwendung (z.B. Whiteboard)
+oder z.B. einen persönlichen Cloud-Speicher “allen” teilst (was beim
+verlassen der Organisation verloren geht)</p>
+</body>
+</html>
