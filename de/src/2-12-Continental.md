@@ -6,6 +6,8 @@ In diesem Fallbeispiel wird die Continental IT Collaboration-Systemlandschaft er
 
 In unserer Organisation nutzen wir eine ganzheitliche IT Collaboration-Systemlandschaft, die sich in die nachfolgenden vier Nutzungssäulen einteilt als digitales Ökosystem:
 
+`![Image of the Continental IT collaboaration landscape](Collaboration_Landscape.png)`
+
 Orientierungsaufgabe:
 
 Nutzt diese vier Nutzungssäulen und ordnet Eure verfügbaren Tools für Kommunikation und Zusammenarbeit in Eurem Kontext (z.B. für Eure Abteilung, Euer Projekt-Team oder die gesamte Organisation) zu. Dazu kann Euch das nachfolgende Template unten weiterhelfen. Reflektiert die jeweiligen Vor- und Nachteile in ihrer jeweiligen Anwendung. *
