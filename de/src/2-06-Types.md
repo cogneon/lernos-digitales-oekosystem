@@ -28,7 +28,7 @@ Ein Domänen-Ökosystem ist ein etabliertes Netzwerk aus Partnern und Wertschöp
 
 Ein Beispiel ist das Domänen-Ökosystem "Reisen". Hier finden sich die datenbasierte Ökosysteme von Online-Reisevermittlern, wie beispielsweise expedia.de. Des Weiteren befindet sich im Domänen-Ökosystem auch Online-Vermittler von Leihwägen, wie beispielsweise billiger-mietwagen.de. Diese könnten den Leihwagen günstiger anbieten, wenn der Hersteller Teil eines Ökosystems zur Sammlung und Verwertung von Fahrzeugdaten ist, wie zum Beispiel Caruso. Weitere Domänen-Ökosysteme sind Versicherung, Wohnen, Gesundheit, Fitness und viele weitere. (Quelle: [Digitale Ökosysteme - Google Books](https://www.google.de/books/edition/Digitale_%C3%96kosysteme/O68vEAAAQBAJ?hl=de&gbpv=0))
 
-### Es gibt mehr als ein Ökosystem
+### Es gibt mehr als ein Ökosystem (Kata)
 
 In dem Grundlagenteil 6 solltet ihr verstanden haben, was genau Domänen-Ökosysteme und Business Ökosysteme sind und was sie ausmachen. Schaut euch gerne das kurze Video zu Business Ökosystemen an: [Business Ecosystems in 100 Sekunden - YouTube](https://www.youtube.com/watch?v=6HZkGgY52cE)
 
