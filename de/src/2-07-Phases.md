@@ -40,8 +40,6 @@ Falls ihr Tools zur Gestaltung von Digitalen Ökosystemen kennenlernen möchtet,
 
 - [Webinar »Design Digitaler Ökosysteme« - Fraunhofer IESE](https://www.iese.fraunhofer.de/de/seminare_training/webinare/digitale-oekosysteme-2.html)
 
-- [Das Geschäftsmodell-Toolbook für digitale Ökosysteme (campus.de)](https://www.campus.de/pdf/eb_9783593442136.pdf)
-
 - [Navigate Business Ecosystem with ease (ecosystemizer.com)](https://www.ecosystemizer.com/)
 
 - [PLATFORM INNOVATION KIT -- Platform Business Model Innovation with the Platform Innovation](https://platforminnovationkit.com/)
