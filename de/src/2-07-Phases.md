@@ -20,15 +20,17 @@ Bei dem Aufbau und Etablierung eines digitalen Ökosystems werden laut Fraunhofe
 
 Dies ist ein idealtypischer Verlauf. Bei einer erfolgreichen Etablierung werden normalerweise diese Phasen durchlaufen, allerdings können die Übergänge fließend sein und die Phasen in unterschiedlichen Ausprägungen vorkommen.
 
+Es gibt verschiedene Tools, um die Gestaltung von digitalen Ökosystemen greifbar zu machen. Unteranderem bietet Fraunhofer mithilfe von Modellierung, Service Blueprint, Service Map und Motivation Matrix ein besseres Verständnis von digitalen Ökosystemen. Ein Webinar zu diesem Tool findet ihr unter Webinar [»Design Digitaler Ökosysteme«](https://www.youtube.com/watch?v=Bc3FJeFMLAs&list=PLgzHQiUJr6D_NZNyHxdQRW-WXA7GHiVld&index=2) Ein anderes Tool ist der Ecosystemizer. Es gibt noch viele weitere Unternehmen, welche Tools für Ökosysteme anbieten. Besonders effektiv sind diese Tools, wenn sie gemeinsam von Team bearbeitet werden und idealerweise auch bildlich veranschaulicht werden.
+
 ### Fünf Phasen zum Erfolg (Kata)
 
 Im Grundlagenteil 7 haben wir uns mit den fünf Phasen befasst, welche für den Aufbau und die Etablierung eines digitalen Ökosystems verantwortlich sind.
 
-- Auf was muss bei der Etablierung eines Digitalen Ökosystems in jeder Phase geachtet werden? Schreibt gemeinsam eine Checkliste, damit zukünftige Implementierungen möglichst erfolgreich ablaufen.
+- Auf was muss bei der Etablierung eines digitalen Ökosystems in jeder Phase geachtet werden?  Schreibt gemeinsam eine Checkliste, damit zukünftige Implementierungen möglichst erfolgreich ablaufen. Es kann hilfreich sein „Failed Ecosystems“ zu betrachten. Beispiele hierfür sind das Microsoft Windows Phone, der Webbrowser von Netscape und das Betriebssystem von BlackBerry.
 
-- Habt ihr bereits Erfahrungen mit sich entwickelnden Digitalen Ökosystemen gemacht? Diskutiert über die Parallelen aber auch die Unterschiede von dem theoretischen Fraunhofer Modell und euren eigenen Erfahrungen zur Etablierung von Digitalen Ökosystemen.
+- Habt ihr bereits Erfahrungen mit sich entwickelnden digitalen Ökosystemen gemacht? Diskutiert über die Parallelen aber auch die Unterschiede von dem theoretischen Fraunhofer Modell und euren eigenen Erfahrungen zur Etablierung von digitalen Ökosystemen.
 
-- Nachdem ihr nun Grundkenntnisse und Gestaltungsmöglichkeiten von Digitalen Ökosystemen erlernt habt, reflektiert als Gruppe den Begriff „Digitales Ökosystem". Haben sich eure Verständnisse angenähert oder sind sie sogar gleich? Wo liegen noch die Unterschiede in eurem Verständnis über Digitale Ökosysteme?
+- Nachdem ihr nun Grundkenntnisse und Gestaltungsmöglichkeiten von digitalen Ökosystemen erlernt habt, reflektiert als Gruppe den Begriff „Digitales Ökosystem". Haben sich eure Verständnisse angenähert oder sind sie sogar gleich? Wo liegen noch die Unterschiede in eurem Verständnis über digitale Ökosysteme?
 
 Falls ihr Tools zur Gestaltung von Digitalen Ökosystemen kennenlernen möchtet, schaut euch die folgenden Tools an:
 
@@ -38,6 +40,8 @@ Falls ihr Tools zur Gestaltung von Digitalen Ökosystemen kennenlernen möchtet,
 
 - [Webinar »Design Digitaler Ökosysteme« - Fraunhofer IESE](https://www.iese.fraunhofer.de/de/seminare_training/webinare/digitale-oekosysteme-2.html)
 
+- [Das Geschäftsmodell-Toolbook für digitale Ökosysteme (campus.de)](https://www.campus.de/pdf/eb_9783593442136.pdf)
+
 - [Navigate Business Ecosystem with ease (ecosystemizer.com)](https://www.ecosystemizer.com/)
 
 - [PLATFORM INNOVATION KIT -- Platform Business Model Innovation with the Platform Innovation](https://platforminnovationkit.com/)
@@ -45,3 +49,4 @@ Falls ihr Tools zur Gestaltung von Digitalen Ökosystemen kennenlernen möchtet,
 **Weitere Informationen:**
 
 - [Digitale Ökosysteme: Welche Herausforderungen stellt der Aufbau und wie gelingt er?, Abschnitt:](https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-welche-herausforderungen-stellt-der-aufbau-und-wie-gelingt-er.html) Phasen der Etablierung eines Digitalen Ökosystems
+- [Webinar »Design Digitaler Ökosysteme« (youtube.com)](https://www.youtube.com/watch?v=Bc3FJeFMLAs&list=PLgzHQiUJr6D_NZNyHxdQRW-WXA7GHiVld&index=2)

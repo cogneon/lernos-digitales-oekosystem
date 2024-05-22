@@ -24,7 +24,7 @@ Im Grundlagenteil 5 sind wir auf das Herzstück eines digitalen Ökosystems näh
 
 - Als nächstes schaut euch ein plattformbasiertes Geschäftsmodell, wie z.B. von Spotify oder Amazon, an. Bildet dieses Geschäftsmodell mithilfe Gassmanns "magischen Dreiecks" oder mit dem Business Model Canvas ab. Falls ihr nicht wisst, wie das Business Model Canvas funktioniert, schaut euch folgendes Video an: [Das Business Model Canvas - YouTube](https://www.youtube.com/watch?v=g6WBrvbTQdg)
 
-- Wenn ihr als Team gemeinsam zurück in Woche 2 schaut, stellt euch die Frage, ob sich euer Verständnis von Digitalen Ökosystemen verändert hat und wenn ja, inwiefern?
+- Wenn ihr als Team gemeinsam zurück in Woche 2 schaut, stellt euch die Frage, ob sich euer Verständnis von digitalen Ökosystemen verändert hat und wenn ja, inwiefern?
 
 **Weitere Informationen:**
 

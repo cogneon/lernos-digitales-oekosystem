@@ -12,7 +12,7 @@ Beispiel Digitization: Analoge Musik wird zu digitaler Musik. Übertragung von e
 
 Beispiel Digitalisierung:  Musik wird jetzt nicht mehr im Laden gekauft, sondern im Onlineshop. 
 
-**Digitale Transformation = Die digitale Transformation beschreibt den Prozess der Umstellung von traditionellen Geschäftsmodellen und Arbeitsmethoden auf digitale Technologien und Prozesse.  Digitale Transformation ermöglicht neben Digitalen Ökosystemen und Plattformen viele weitere neue digitale Geschäftsmodelle, die durch Digitalisierungstechnologien ermöglicht werden.**
+**Digitale Transformation = Die digitale Transformation beschreibt den Prozess der Umstellung von traditionellen Geschäftsmodellen und Arbeitsmethoden auf digitale Technologien und Prozesse.  Digitale Transformation ermöglicht neben digitalen Ökosystemen und Plattformen viele weitere neue digitale Geschäftsmodelle, die durch Digitalisierungstechnologien ermöglicht werden.**
 
 Beispiel Digitale Transformation: Spotify ermöglicht das Streamen von Musik zu einem monatlichen Abo Preis. Es wird also nicht mehr nur eine CD gekauft, sondern man erhält den Zugriff auf viel mehr Musik, die man so ggf. nicht gekauft hätte.
 
@@ -20,13 +20,13 @@ Quelle: [Digitale Ökosysteme und Plattformökonomie](https://www.informatik-akt
 
 ### Ready steady go?! Schau dir deine Erfahrungen an (Kata)
 
-Im Grundlagenteil 1 sammelt ihr erste Grundlagen und Erkenntnisse über das Thema Digitales Ökosystem. 
+Im Grundlagenteil 1 sammelt ihr erste Grundlagen und Erkenntnisse über das Thema digitales Ökosystem. 
 
-- Wenn ihr an euren Alltag denkt, welche Erfahrungen habt ihr als Kund:innen in Digitalen Ökosystemen gemacht? Beispielsweise als Kunde bei Amazon, FlixBus oder auch Air BnB. 
+- Wenn ihr an euren Alltag denkt, welche Erfahrungen habt ihr als Kund:innen in digitalen Ökosystemen gemacht? Beispielsweise als Kunde bei Amazon, FlixBus oder auch Air BnB. 
 
 - Was begeistert euch an diesen Angeboten, was irritiert euch?
 
-Sucht euch ein Digitales Ökosystem und diskutiert eure Erfahrungen anhand der Fragen.
+Sucht euch ein digitales Ökosystem und diskutiert eure Erfahrungen anhand der Fragen.
 
 - Fallen euch weitere Beispiele für die Phasen von Digitization über Digitalisierung zur Digitalen Transformation ein?
 

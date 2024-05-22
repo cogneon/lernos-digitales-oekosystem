@@ -6,13 +6,13 @@ In diesem Grundlagenteil wir auf weitere Formen von Ökosystemen ein. Dieser Abs
 
 **Business Ökosystem:**
 
-Business Ökosysteme sind sich dynamisch entwickelnde Gemeinschaften eigenständiger Akteure, die über abgestimmte Technologien, Normen und Regeln interagieren, um in gekoppelten Geschäftsmodellen gegenseitig Werte zu schaffen. Dabei können sie verschieden Rollen wie Initiator, Konsument oder auch Anbieter einnehmen. Gemeinsam werden neue Märkte gebildet, welche keiner der Parteien allein bedienen könnte. Die gemeinschaftliche Wertschöpfung ist daher auf ein gemeinsames Ziel ausgerichtet. Grundlage für Interaktion und Zusammenarbeit ist dabei individuelle Fähigkeiten als auch die Bedürfnisse der Akteure. Diese müssen im Business Ökosystem möglichst zielführend orchestriert werden. Dazu können aufeinander abgestimmte Technologien oder Werkzeuge erreicht werden. Für ein erfolgreiches Business Ökosystem muss ein jeder Teilnehmer seinen Beitrag leisten, aber auch einen Mehrwert erhalten.
+Business Ökosysteme sind sich dynamisch entwickelnde Gemeinschaften eigenständiger Akteure, die über abgestimmte Technologien, Normen und Regeln interagieren, um in gekoppelten Geschäftsmodellen gegenseitig Werte zu schaffen. Dabei können sie verschieden Rollen wie Initiator, Konsument oder auch Anbieter einnehmen. Durch die Zusammenarbeit entstehen neue Märkte, die von keiner Partei allein erschlossen werden könnten. Die gemeinschaftliche Wertschöpfung ist daher auf ein gemeinsames Ziel ausgerichtet. Grundlage für Interaktion und Zusammenarbeit ist dabei individuelle Fähigkeiten als auch die Bedürfnisse der Akteure. Diese müssen im Business Ökosystem möglichst zielführend orchestriert werden. Dazu können aufeinander abgestimmte Technologien oder Werkzeuge erreicht werden. Für ein erfolgreiches Business Ökosystem muss ein jeder Teilnehmer seinen Beitrag leisten, aber auch einen Mehrwert erhalten. 
 
 Die nachfolgenden Ökosysteme sind Typen von Business Ökosystemen. Die einzelnen Ansätze beleuchten oftmals ähnliche Aspekte aus unterschiedlichen Perspektiven. Weitere Typen von Business Ökosystemen findet ihr hier: [Business Ecosystem, Innovation Ecosystem, Platform Ecosystem -- Wie viele Ecosystembegriffe braucht es wirklich?](https://ccecosystems.news/business-ecosytem-innovation-ecosystem-platform-ecosystem-wie-viele-ecosystembegriffe-braucht-es-wirklich/)
 
 **Innovationsökosystem:**
 
-Besteht aus Akteuren, Aktivitäten und Artefakte sowie Institutionen und Beziehungen, welche für die Schaffung von innovativen Produkten/Dienstleistungen relevant sind.
+Besteht aus Akteuren, Aktivitäten und Artefakte sowie Institutionen und Beziehungen, welche für die Schaffung von innovativen Produkten/Dienstleistungen relevant sind. Die Akteure des Ökosystems tauschen komplementäre Daten, Wissen und Ressourcen aus, um über Unternehmens- und Branchengrenzen hinweg innovativ zu sein und gemeinsam neue Lösungen zu entwickeln, die ihren Kunden zusätzlichen Nutzen bieten. Ein Beispiel ist DataConnect. Dabei wird der Austausch von Landwirtschaftlichen Maschienendaten in Echtzeit ausgetauscht. Die Lösung wurde 365FarmNet, CLAAS und John Deere entwickelt und bietet eine branchenweite, herstellerunabhängige Lösung, die Interoperabilitätsprobleme in der Landwirtschaft löst.
 
 **Digitales Business Ökosystem:**
 
@@ -20,11 +20,11 @@ Digitale Ökosysteme sind digitalisierte Business Ökosysteme. Der Wissensaustau
 
 **Wissens- und Informationsökosystem**
 
-Ökosysteme die Wissens- und Informationsressourcen nutzen, um Wert zu generieren. Häufig ist es dezentrales Wissen und Informationsquellen, die durch Austausch dieser Werte Synergien erzeugen. Zum Beispiel Forschungseinrichtungen oder Universitäten, welche die relevanten Informationen bereitstellen.
+Ökosysteme die Wissens- und Informationsressourcen nutzen, um Wert zu generieren. Häufig ist es dezentrales Wissen und Informationsquellen, die durch Austausch dieser Werte Synergien erzeugen. Zum Beispiel Forschungseinrichtungen oder Universitäten, welche die relevanten Informationen bereitstellen. Ein Beispiel für ein Wissens- und Informationsökosystem ist Wikipedia. Dabei liegt der Fokus der Plattform auf dem Austausch von Wissen unter verschiedenen Akteuren.
 
 **Domänen-Ökosystem**
 
-Ein Domänen-Ökosystem ist ein etabliertes Netzwerk aus Partnern und Wertschöpfungsketten in einer Geschäftsdomäne. Domänen-Ökosysteme bestehen häufig aus bereits bestehenden Digitalen Ökosystemen. Innerhalb eines Domänen-Ökosystem kann es sowohl konkurrierende als auch sich ergänzende Ökosysteme agieren. Kunden können sich in mehreren Domänen-Ökosystemen bewegen und innerhalb eines Domänen-Ökosystem. Der Begriff Domänen-Ökosystem wird von Fraunhofer IESE hauptsächlich verwendet.  (Quelle: [Digitale Ökosysteme und Plattformökonomie](https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html), Abschnitt: Domänen-Ökosystem)
+Ein Domänen-Ökosystem ist ein etabliertes Netzwerk aus Partnern und Wertschöpfungsketten in einer Geschäftsdomäne. Domänen-Ökosysteme bestehen häufig aus bereits bestehenden digitalen Ökosystemen. Innerhalb eines Domänen-Ökosystem kann es sowohl konkurrierende als auch sich ergänzende Ökosysteme agieren. Kunden können sich in mehreren Domänen-Ökosystemen bewegen und innerhalb eines Domänen-Ökosystem. Der Begriff Domänen-Ökosystem wird von Fraunhofer IESE hauptsächlich verwendet.  (Quelle: [Digitale Ökosysteme und Plattformökonomie](https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html), Abschnitt: Domänen-Ökosystem)
 
 Ein Beispiel ist das Domänen-Ökosystem "Reisen". Hier finden sich die datenbasierte Ökosysteme von Online-Reisevermittlern, wie beispielsweise expedia.de. Des Weiteren befindet sich im Domänen-Ökosystem auch Online-Vermittler von Leihwägen, wie beispielsweise billiger-mietwagen.de. Diese könnten den Leihwagen günstiger anbieten, wenn der Hersteller Teil eines Ökosystems zur Sammlung und Verwertung von Fahrzeugdaten ist, wie zum Beispiel Caruso. Weitere Domänen-Ökosysteme sind Versicherung, Wohnen, Gesundheit, Fitness und viele weitere. (Quelle: [Digitale Ökosysteme - Google Books](https://www.google.de/books/edition/Digitale_%C3%96kosysteme/O68vEAAAQBAJ?hl=de&gbpv=0))
 
@@ -47,3 +47,5 @@ In dem Grundlagenteil 6 solltet ihr verstanden haben, was genau Domänen-Ökosys
 - [Digitale Ökosysteme - Google Books](https://www.google.de/books/edition/Digitale_%C3%96kosysteme/O68vEAAAQBAJ?hl=de&gbpv=0)
 
 - [Business Ökosystem Design - Google Books](https://www.google.de/books/edition/Business_%C3%96kosystem_Design/DHUvEAAAQBAJ?hl=de&gbpv=0)
+
+- [Das Innovation Ecosystem: die Vorteile von Co-Innovation](https://www.zuehlke.com/de/insights/innovation-ecosystems-vorteile-datenbasierter-co-innovation)

@@ -8,7 +8,7 @@ In diesem Grundlagenteil schauen wir uns die Chancen, Herausforderungen und Nach
 
 - Neue Geschäftsmodelle und Netzwerkeffekte: Umsetzung neue Geschäftsmodelle und Effizienzsteigerung. Der Ökosystem Initiator hat den Anreiz, dass digitale Ökosystem wachsen zu lassen und Netzwerkeffekte zu nutzten.
 
-- Offenheit für Teilnehmer und einfacher Einstieg: Oft haben Digitale Ökosysteme keine Zugangsbeschränkung, damit der Einstieg so einfach wie möglich ist.
+- Offenheit für Teilnehmer und einfacher Einstieg: Oft haben digitale Ökosysteme keine Zugangsbeschränkung, damit der Einstieg so einfach wie möglich ist.
 
 - Wachstumspotential und hohe Skalierbarkeit: Schnelle und kostengünstige Skalierung durch die digitale Plattform.
 
@@ -26,23 +26,23 @@ In diesem Grundlagenteil schauen wir uns die Chancen, Herausforderungen und Nach
 
 **Nachteile:**
 
-- Geringe Anzahl an erfolgreich konkurrierende Digitale Ökosysteme: Oft setzten sich nur wenige Ökosysteme im gleichen Bereich erfolgreich durch, da Ökosysteme, die einen ähnlichen Zweck haben, um die gleichen Teilnehmer und um das gleiche Geschäft konkurrieren.
+- Geringe Anzahl an erfolgreich konkurrierende digitale Ökosysteme: Oft setzten sich nur wenige Ökosysteme im gleichen Bereich erfolgreich durch, da Ökosysteme, die einen ähnlichen Zweck haben, um die gleichen Teilnehmer und um das gleiche Geschäft konkurrieren.
 
 - Monopolstellungen: Aufgrund der wenig konkurrierenden Ökosysteme in einem Bereich, haben diese oft eine Monopolstellung. So hat der Ökosystem-Initiator eine enorme Machtstellung und kann die Bedingungen der Teilnahme diktieren.
 
 (Quelle: [Digitale Ökosysteme und Plattformökonomie](https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html), Abschnitt: Mögliche Nachteile durch Digitale Ökosysteme)
 
-### Finde die Chancen und Herausforderungen von Digitalen Ökosystemen (Kata)
+### Finde die Chancen und Herausforderungen von digitalen Ökosystemen (Kata)
 
 Digitale Ökosysteme sind aktuell ein viel diskutiertes Thema. Nach Grundlagenteil 3 solltet ihr Chancen, Herausforderungen und Nachteilen kennen gelernt haben.
 
 - Macht eine Recherche: Welches digitale Ökosystem ist erfolgreich am Markt?
 
-- Stellt basierend auf euren Ergebnissen einen Katalog für Erfolgsfaktoren für ein neues Digitales Ökosystem zusammen.
+- Stellt basierend auf euren Ergebnissen einen Katalog für Erfolgsfaktoren für ein neues digitales Ökosystem zusammen.
 
 - Könnt ihr diese Erfolgsfaktoren auch bei anderen digitalen Ökosysteme erkennen?
 
-- Was macht für euch ein erfolgreiches Digitales Ökosystem aus? Geht sowohl von der Konsumenten-Perspektive als auch von der Anbieter-Perspektive darauf ein.
+- Was macht für euch ein erfolgreiches digitales Ökosystem aus? Geht sowohl von der Konsumenten-Perspektive als auch von der Anbieter-Perspektive darauf ein.
 
 **Weiterführende Links:**
 

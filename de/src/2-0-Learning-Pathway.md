@@ -20,7 +20,7 @@ Vorab gibt es noch einige Hinweise, welche euch helfen sollen, den Lernpfad zu d
   - An welchen Terminen finden die wöchentlichen Treffen statt?
   - Werden die Katas im Treffen selbst oder vorab bearbeitet?
 
-- Überlegt euch, ob ihr die verschiedenen Katas anhand von 1 bis 2 Digitalen Ökosystemen erarbeitet, oder ihr euch jede Woche ein anderes Digitales Ökosystem anschaut. Eine Übersicht über Digitale Ökosysteme findet ihr in folgendem PDF-Dokument: [Digitale Ökosysteme in Deutschland (fraunhofer.de)](https://www.iese.fraunhofer.de/content/dam/iese/dokumente/media/studien/studie-digitale-oekosysteme-in-deutschland-fraunhofer-iese.pdf)
+- Überlegt euch, ob ihr die verschiedenen Katas anhand von 1 bis 2 digitalen Ökosystemen erarbeitet, oder ihr euch jede Woche ein anderes digitales Ökosystem anschaut. Eine Übersicht über digitale Ökosysteme findet ihr in folgendem PDF-Dokument: [Digitale Ökosysteme in Deutschland (fraunhofer.de)](https://www.iese.fraunhofer.de/content/dam/iese/dokumente/media/studien/studie-digitale-oekosysteme-in-deutschland-fraunhofer-iese.pdf)
 
 Dieser Lernpfad basiert stark auf den Veröffentlichungen von Fraunhofer IESE. Aus diesem Grund findet ihr in der weiterführenden Literatur die gleichen Artikel, wobei unterschiedliche Abschnitte für die jeweilige Woche relevant sind.
 
@@ -28,6 +28,6 @@ Nach den ganzen Hinweisen und organisatorischen Punkten, lernt euch innerhalb eu
 
 - Was hat euch auf diese Lernreise gebracht? Was hat euch geleitet - persönliche Begegnungen, Erfahrungen oder gar eigene Betroffenheit? Vielleicht gibt es auch keinen spezifischen Auslöser, sondern einfach nur Neugierde auf das Thema? 
 
-- Was interessiert euch/ begeistert euch am Thema Digitale Ökosysteme? 
+- Was interessiert euch/ begeistert euch am Thema digitale Ökosysteme? 
 
 - Wie habt ihr davon gehört und wie seid ihr auf das Thema und auf den Lernpfad aufmerksam geworden?

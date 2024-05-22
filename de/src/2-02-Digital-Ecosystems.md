@@ -1,4 +1,4 @@
-## Was sind digitale Ökosystem
+## Was sind digitale Ökosysteme
 
 ### Grundlagen
 
@@ -26,13 +26,13 @@ Kennzeichen Digitale Ökosysteme:
 
 - Digitale Ökosysteme werden sowohl im B2B als auch im B2C Bereich angeboten
 
-- Durch Digitale Ökosysteme können verschiedene Geschäftsmodelle angeboten werden
+- Durch digitale Ökosysteme können verschiedene Geschäftsmodelle angeboten werden
 
 (Quelle: [Digitale Ökosysteme und Plattformökonomie](https://www.informatik-aktuell.de/management-und-recht/digitalisierung/digitale-oekosysteme-und-plattformoekonomie.html), Abschnitt Digitales Ökosystem)
 
 ### Vertiefe dein theoretisches Wissen (Kata)
 
-Im Grundlagenteil 2 bekommt ihr eine Übersicht über die Definition von Digitale Ökosystemen und lernt Kennzeichen kennen. Ihr solltet die Frage „Was sind Digitale Ökosysteme" grundlegend beantworten können.
+Im Grundlagenteil 2 bekommt ihr eine Übersicht über die Definition von digitale Ökosystemen und lernt Kennzeichen kennen. Ihr solltet die Frage „Was sind digitale Ökosysteme" grundlegend beantworten können.
 
 - Formuliert in 2-3 Sätzen euer Verständnis von einem digitalen Ökosystem (Ihr werdet es zu einem späteren Zeitpunkt wieder aufgreifen)
 
